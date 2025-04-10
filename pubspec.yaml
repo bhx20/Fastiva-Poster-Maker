@@ -1,0 +1,220 @@
+name: festiva_poster
+version: 1.0.0+11
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.7.2
+  flutter:
+    sdk: flutter
+
+  sizer: ^2.0.15
+  url_launcher: ^6.1.14
+  carousel_slider: ^5.0.0
+  lottie: ^3.3.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.7
+  connectivity_wrapper:
+  shared_preferences: ^2.2.1
+  intl: ^0.20.2
+  permission_handler: ^11.0.1
+  form_field_validator: ^1.1.0
+  dartz: ^0.10.1
+  encrypt: ^5.0.3
+  dio: ^5.3.3
+  shimmer: ^3.0.0
+  pull_to_refresh: ^2.0.0
+  image_cropper: ^9.1.0
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  dotted_border: ^2.1.0
+  fluttertoast: ^8.2.2
+  flutter_colorpicker: ^1.0.3
+  image: ^4.1.3
+  google_fonts: ^6.1.0
+  share_plus: ^10.1.4
+  flutter_staggered_grid_view: ^0.7.0
+  gal: ^2.3.1
+
+
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+
+    - family: Arizonia
+      fonts:
+        - asset: assets/fonts/others/Arizonia-Regular.ttf
+    - family: AutourOne-Regular
+      fonts:
+        - asset: assets/fonts/others/AutourOne-Regular.ttf
+    - family: AutourOne-Regular
+      fonts:
+        - asset: assets/fonts/others/AutourOne-Regular.ttf
+    - family: BerkshireSwash-Regular
+      fonts:
+        - asset: assets/fonts/others/BerkshireSwash-Regular.ttf
+    - family: BigShouldersStencilDisplay-Regular
+      fonts:
+        - asset: assets/fonts/others/BigShouldersStencilDisplay-Regular.ttf
+    - family: BigShouldersStencilDisplay-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/others/BigShouldersStencilDisplay-VariableFont_wght.ttf
+    - family: Borel-Regular
+      fonts:
+        - asset: assets/fonts/others/Borel-Regular.ttf
+    - family: CabinSketch-Regular
+      fonts:
+        - asset: assets/fonts/others/CabinSketch-Regular.ttf
+    - family: AutourOne-Regular
+      fonts:
+        - asset: assets/fonts/others/AutourOne-Regular.ttf
+    - family: CarterOne-Regular
+      fonts:
+        - asset: assets/fonts/others/CarterOne-Regular.ttf
+    - family: Caveat-Regular
+      fonts:
+        - asset: assets/fonts/others/Caveat-Regular.ttf
+    - family: Cinzel-Regular
+      fonts:
+        - asset: assets/fonts/others/Cinzel-Regular.ttf
+    - family: CinzelDecorative-Regular
+      fonts:
+        - asset: assets/fonts/others/CinzelDecorative-Regular.ttf
+    - family: Creepster-Regular
+      fonts:
+        - asset: assets/fonts/others/Creepster-Regular.ttf
+    - family: DancingScript-Regular
+      fonts:
+        - asset: assets/fonts/others/DancingScript-Regular.ttf
+    - family: FrederickatheGreat-Regular
+      fonts:
+        - asset: assets/fonts/others/FrederickatheGreat-Regular.ttf
+    - family: Fredoka_Condensed-Regular
+      fonts:
+        - asset: assets/fonts/others/Fredoka_Condensed-Regular.ttf
+    - family: GreatVibes-Regular
+      fonts:
+        - asset: assets/fonts/others/GreatVibes-Regular.ttf
+    - family: HerrVonMuellerhoff-Regular
+      fonts:
+        - asset: assets/fonts/others/HerrVonMuellerhoff-Regular.ttf
+    - family: IndieFlower-Regular
+      fonts:
+        - asset: assets/fonts/others/IndieFlower-Regular.ttf
+    - family: JosefinSlab-Regular
+      fonts:
+        - asset: assets/fonts/others/JosefinSlab-Regular.ttf
+    - family: LibreBaskerville-Regular
+      fonts:
+        - asset: assets/fonts/others/LibreBaskerville-Regular.ttf
+    - family: LobsterTwo-Regular
+      fonts:
+        - asset: assets/fonts/others/LobsterTwo-Regular.ttf
+    - family: LuckiestGuy-Regular
+      fonts:
+        - asset: assets/fonts/others/LuckiestGuy-Regular.ttf
+    - family: MarcellusSC-Regular
+      fonts:
+        - asset: assets/fonts/others/MarcellusSC-Regular.ttf
+    - family: MarckScript-Regular
+      fonts:
+        - asset: assets/fonts/others/MarckScript-Regular.ttf
+    - family: Marmelad-Regular
+      fonts:
+        - asset: assets/fonts/others/Marmelad-Regular.ttf
+    - family: Monoton-Regular
+      fonts:
+        - asset: assets/fonts/others/Monoton-Regular.ttf
+    - family: NanumPenScript-Regular
+      fonts:
+        - asset: assets/fonts/others/NanumPenScript-Regular.ttf
+    - family: Neucha-Regular
+      fonts:
+        - asset: assets/fonts/others/Neucha-Regular.ttf
+    - family: Norican-Regular
+      fonts:
+        - asset: assets/fonts/others/Norican-Regular.ttf
+    - family: Orbitron-Regular
+      fonts:
+        - asset: assets/fonts/others/Orbitron-Regular.ttf
+    - family: Philosopher-Regular
+      fonts:
+        - asset: assets/fonts/others/Philosopher-Regular.ttf
+    - family: PixelifySans-Regular
+      fonts:
+        - asset: assets/fonts/others/PixelifySans-Regular.ttf
+    - family: RockSalt-Regular
+      fonts:
+        - asset: assets/fonts/others/RockSalt-Regular.ttf
+    - family: RubikMoonrocks-Regular
+      fonts:
+        - asset: assets/fonts/others/RubikMoonrocks-Regular.ttf
+    - family: SixCaps-Regular
+      fonts:
+        - asset: assets/fonts/others/SixCaps-Regular.ttf
+    - family: SnowburstOne-Regular
+      fonts:
+        - asset: assets/fonts/others/SnowburstOne-Regular.ttf
+    - family: SpaceMono-Regular
+      fonts:
+        - asset: assets/fonts/others/SpaceMono-Regular.ttf
+    - family: TheADemoRegular
+      fonts:
+        - asset: assets/fonts/others/TheADemoRegular.ttf
+    - family: Viga-Regular
+      fonts:
+        - asset: assets/fonts/others/Viga-Regular.ttf
+    - family: YatraOne-Regular
+      fonts:
+        - asset: assets/fonts/others/YatraOne-Regular.ttf
+
+    - family: YoungSerif-Regular
+      fonts:
+        - asset: assets/fonts/others/YoungSerif-Regular.ttf
+
+    - family: Teko
+      fonts:
+        - asset: assets/fonts/others/Teko.ttf
+
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/others/Rubik.ttf
+
+    - family: Roboto-Regular
+      fonts:
+        - asset: assets/fonts/others/Roboto-Regular.ttf

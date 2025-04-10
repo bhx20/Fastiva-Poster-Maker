@@ -1,0 +1,2 @@
+D:/Sanket/Fastiva Poster Maker/fastiva_poster_maker/android/app/.cxx/RelWithDebInfo/4c1e3h22/x86_64/CMakeFiles/edit_cache.dir
+D:/Sanket/Fastiva Poster Maker/fastiva_poster_maker/android/app/.cxx/RelWithDebInfo/4c1e3h22/x86_64/CMakeFiles/rebuild_cache.dir

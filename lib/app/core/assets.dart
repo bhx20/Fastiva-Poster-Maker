@@ -1,0 +1,95 @@
+class AppImage {
+  static const String image = "assets/images";
+  static const String loader = "$image/loader.json";
+  static const String loaderBlack = "$image/loader_black.json";
+  static const String logo = "$image/logo.png";
+  static const String proLogo = "$image/pro_logo.png";
+  static const String logoHome = "$image/logo_home.png";
+  static const String logoTr = "$image/logo_tr.png";
+  static const String splash = "$image/splash.png";
+}
+
+class AppIcon {
+  static const String icon = "assets/icons";
+  static const String back = "$icon/angle-left.png";
+  static const String forward = "$icon/angle-right.png";
+  static const String email = "$icon/at.png";
+  static const String check = "$icon/check.png";
+  static const String clip = "$icon/clip.png";
+  static const String cross = "$icon/cross.png";
+  static const String edit = "$icon/edit.png";
+  static const String exit = "$icon/exit.png";
+  static const String frame = "$icon/expand.png";
+  static const String fb = "$icon/facebook.png";
+  static const String handshake = "$icon/handshake.png";
+  static const String support = "$icon/headset.png";
+  static const String home = "$icon/house.png";
+  static const String homeFill = "$icon/house-fill.png";
+  static const String likes = "$icon/heart.png";
+  static const String likesFill = "$icon/heart_fill.png";
+  static const String info = "$icon/info.png";
+  static const String instagram = "$icon/instagram.png";
+  static const String layer = "$icon/layer-plus.png";
+  static const String list = "$icon/list.png";
+  static const String location = "$icon/marker.png";
+  static const String treeDots = "$icon/manu-dots-vertical.png";
+  static const String color = "$icon/palette.png";
+  static const String phone = "$icon/phone-call.png";
+  static const String picture = "$icon/picture.png";
+  static const String pictureFill = "$icon/picture_fill.png";
+  static const String plus = "$icon/plus.png";
+  static const String logOut = "$icon/power.png";
+  static const String search = "$icon/search.png";
+  static const String twitter = "$icon/twitter.png";
+  static const String user = "$icon/user.png";
+  static const String userFill = "$icon/user_fill.png";
+  static const String world = "$icon/world.png";
+  static const String download = "$icon/download.png";
+  static const String downloadFill = "$icon/download_fill.png";
+  static const String upload = "$icon/upload.png";
+  static const String grid = "$icon/grid.png";
+  static const String placeholder = "$icon/placeholder.png";
+  static const String noInternet = "$icon/noInternet.png";
+  static const String noBox = "$icon/noBox.png";
+  static const String lock = "$icon/lock.png";
+  static const String lockFill = "$icon/lock_fill.png";
+  static const String reset = "$icon/reset.png";
+  static const String radius = "$icon/radius.png";
+  static const String round = "$icon/round.png";
+  static const String square = "$icon/square.png";
+  static const String border = "$icon/border.png";
+  static const String margin = "$icon/margin.png";
+  static const String font = "$icon/font.png";
+  static const String empty = "$icon/empty.png";
+  static const String downloadImage = "$icon/download_image.png";
+  static const String share = "$icon/share.png";
+  static const String help = "$icon/help.png";
+  static const String privacy = "$icon/privacy.png";
+  static const String star = "$icon/star.png";
+  static const String term = "$icon/term.png";
+  static const String alignBottom = "$icon/align_bottom.png";
+  static const String alignCenterV = "$icon/align_center_vertical.png";
+  static const String alignTop = "$icon/align_top.png";
+  static const String alignLeft = "$icon/align_left.png";
+  static const String alignRight = "$icon/align_right.png";
+  static const String alignCenterH = "$icon/align_center_hori.png";
+  static const String align = "$icon/align.png";
+  static const String crown = "$icon/crown.png";
+  static const String hideFrameFill = "$icon/hide-fill.png";
+  static const String hideFrame = "$icon/hide.png";
+  static const String switchProfile = "$icon/switch-profile.png";
+  static const String mail = "$icon/mail.png";
+  static const String mobile = "$icon/mobile.png";
+  static const String f2mobile = "$icon/f2phone.png";
+  static const String f2mail = "$icon/f2mail.png";
+  static const String checkInApp = "$icon/check_inApp.png";
+  static const String cancel = "$icon/cancel.png";
+  static const String success = "$icon/success.png";
+  static const String failed = "$icon/failed.png";
+}
+
+class QurekaAssets {
+  static const String nativeLogo = "assets/qureka/native_logo.jpg";
+  static const String nativeBanner = "assets/qureka/native_banner.jpg";
+  static const String bannerLogo = "assets/qureka/banner_logo.gif";
+}

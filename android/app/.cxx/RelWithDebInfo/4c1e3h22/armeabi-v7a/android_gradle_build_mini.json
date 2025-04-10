@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\flutter sdk\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\ANDROID\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Sanket\\Fastiva Poster Maker\\fastiva_poster_maker\\android\\app\\.cxx\\RelWithDebInfo\\4c1e3h22\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\ANDROID\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Sanket\\Fastiva Poster Maker\\fastiva_poster_maker\\android\\app\\.cxx\\RelWithDebInfo\\4c1e3h22\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

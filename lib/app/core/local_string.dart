@@ -1,0 +1,1845 @@
+import 'package:get/get.dart';
+
+class LocalString {
+  static String title = "Fastiva Poster Maker";
+  static String home = "Home";
+  static String picture = "Picture";
+  static String profile = "Profile";
+  static String editPoster = " Edit Poster";
+  static String selectProfile = "Select Profile";
+  static String viewAll = "View All";
+  static String noInternet = "No Internet";
+  static String noData = "No Data";
+  static String noProfile = "No Profile";
+  static String noProfileDes =
+      "There is no profile available for now. please add your profile for better experience.";
+  static String categoryPoster = "Category Poster";
+  static String connectionIntro =
+      "You are not connected to the internet Make sure Wi-Fi is on, Flight mode is off and try again.";
+  static String profileDetails = "Profile Details";
+  static String addProfile = "Add Profile";
+
+  static String updateProfile = "Update Profile";
+  static String update = "Update";
+  static String festivaCropper = 'Festiva Cropper';
+  static String uploadLogo = "Upload Logo";
+  static String download = "Download";
+  static String uploadFirmLogo = "Upload Firm Logo";
+  static String personal = "Personal";
+  static String business = "Business";
+  static String selectType = "Please Select Profile Type:";
+  static String name = "Name";
+  static String number = "Number";
+  static String mobileNumber = "Mobile Number";
+  static String emailAddress = "Email Address";
+  static String email = "Email";
+  static String address = "Address";
+  static String continueButton = "Continue";
+  static String save = "Save";
+  static String warning = "Warning";
+  static String english = "English";
+  static String hindi = "हिन्दी";
+  static String gujarati = "ગુજરાતી";
+  static String marathi = "मराठी";
+  static String panjabi = "ਪੰਜਾਬੀ";
+  static String urdu = "اردو";
+  static String telugu = "తెలుగు";
+  static String tamil = "தமிழ்";
+  static String kanada = "ಕೆನಡಾ";
+  static String malayalam = "മലയാളം";
+  static String bengali = "বাঙ্গালী";
+  static String odia = "ଓଡିଆ";
+  static String e = "E";
+  static String h = "ह";
+  static String g = "ગ";
+  static String pn = "ਪੰ";
+  static String m = "म";
+  static String t = "తె";
+  static String tm = "த";
+  static String kn = "ಕೆ";
+  static String ml = "മ";
+  static String bn = "বা";
+  static String od = "ଓ";
+  static String ur = "ار";
+
+  static String pickLanguage = "Pick Your Language:";
+  static String currentLanguage = "Current Language";
+  static String logoWarning = "Please Upload Logo";
+  static String profileTypeWarning = "Please Select Profile Type";
+  static String myProfileList = "My Profile List";
+  static String myProfile = "My Profile";
+  static String languages = "My Language";
+  static String exitWarning = "Are You Sure you want close the app?";
+  static String deleteWarning = "Are You Sure you want delete this file?";
+  static String profileWarning =
+      "Are you sure you want to delete this profile?";
+  static String exit = "Exit";
+  static String yes = "Yes";
+  static String no = "No";
+  static String noSelectedProfile =
+      "Embark on the app's journey with your unique profile! To create one, just tap the button below. It's a breeze, only two clicks away!";
+  static String logo = "Logo";
+  static String color = "Color";
+  static String opacity = "Opacity";
+  static String scale = "Scale";
+  static String frame = "Frame";
+  static String pickLogoColor = "Pick a Logo color";
+  static String pickFrameColor = "Pick a Frame color";
+  static String radius = "Radius";
+  static String shape = "Shape";
+  static String fonts = "Fonts";
+  static String frameMargin = "Frame Margin";
+  static String logoMargin = "Logo Margin";
+  static String margin = "Margin";
+  static String border = "Border";
+  static String posterBorder = "Poster Border";
+  static String logoRadius = "Logo Radius";
+  static String frameRadius = "Frame Radius";
+  static String logoBorder = "Logo Border";
+  static String strokeWidth = "Stroke Width";
+  static String borderOpacity = "Border Opacity";
+  static String logoColor = "Logo Color";
+  static String frameColor = "Frame Color";
+  static String nameColor = "Name Color";
+  static String borderColor = "Border Color";
+  static String topLeft = "Top Left";
+  static String topRight = "Top Right";
+  static String bottomLeft = "Bottom Left";
+  static String bottomRight = "Bottom Right";
+  static String nameBoxRadius = "Name Box Radius";
+  static String topMargin = "Top Margin";
+  static String bottomMargin = "Bottom Margin";
+  static String leftMargin = "Left Margin";
+  static String rightMargin = "Right Margin";
+  static String tools = "Tools";
+  static String height = "Height";
+  static String size = "Size";
+  static String latterSpacing = "Spacing";
+  static String nameFont = "Name Font";
+  static String changeProfile = "Change Profile";
+  static String numberColor = "Number Color";
+  static String numberFont = "Number Font";
+  static String emailColor = "Email Color";
+  static String emailFont = "Email Color";
+  static String addressColor = "Address Color";
+  static String addressFont = "Address Font";
+  static String preview = "Preview";
+  static String empty = "Empty";
+  static String privacy = "Privacy";
+  static String termsAndConditions = "Terms & Conditions";
+  static String rateMyApp = "Rate App";
+  static String share = "Share";
+  static String help = "Help";
+  static String vertical = "Vertical";
+  static String horizontal = "Horizontal";
+  static String contentAlign = "Content Align";
+  static String downloadSuccessful = "Image Downloaded Successfully";
+  static String emptyDownLoad =
+      "There is no download image, please explore more with our latest collections.";
+  static String somethingWentWrong = "Something Went Wrong";
+  static String emptyImages =
+      "There is no images, Please refresh the feeds or try to re-open the app.";
+  static String itsPremium = "It's a Premium";
+  static String pleaseWatchVideo =
+      "Get the Pro plan or watch the complete video Ad to unlock this Poster";
+  static String watch = "Watch";
+  static String getPro = "Get Pro";
+  static String removeWaterMark = "Remove Watermark";
+  static String pleaseWatchVideoWaterMart =
+      "Get the Pro plan or watch a complete video ad to remove the watermark.";
+  static String cancel = "Cancel";
+  static String addProfileWarning = "To access the poster, please create at "
+      "least one profile for continuous use. This will ensure a smoother"
+      " experience for you.";
+  static String noSliderData = "No Slider Data";
+  static String likes = "Likes";
+  static String failedToLoadAds = "Failed To Load Ads";
+  static String searchCatagory = "Search catagory";
+  static String emptySearch = "No search results found.";
+  static String removeFromList =
+      "Are you sure you want remove this poster from favorite list?";
+  static String emptyLikes =
+      "There are no liked Posters for now! Click the heart icon to add it to your favorites.";
+  static String swatchWarning =
+      "We  noticed that there is only one profile on your profile list, "
+      "if you want to switch the profile then you have to add more profiles to "
+      "your profile list.";
+  static String loading = "Loading";
+
+  static String goToDashBoard = "Go To DashBoard";
+  static String tryAgain = "Try Again";
+  static String congratulation = "Congratulation";
+  static String alreadyOwn = "Already Own";
+  static String failed = "Failed";
+  static String successText =
+      "You have successfully subscribed the plan, Now get ready to create stunning posters using Fastiva Pro.";
+  static String failedText = "Something went wrong, please try again latter";
+  static String ownText =
+      "You already own this plan, please try again with another plan";
+  static String okay = "Okay";
+}
+
+class Local extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_IN': {
+          LocalString.title: "Fastiva Poster Maker",
+          LocalString.home: "Home",
+          LocalString.picture: "Picture",
+          LocalString.profile: "Profile",
+          LocalString.editPoster: " Edit Poster",
+          LocalString.selectProfile: "Select Profile",
+          LocalString.viewAll: "View All",
+          LocalString.noInternet: "No Internet",
+          LocalString.noData: "No Data",
+          LocalString.noProfile: "No Profile",
+          LocalString.noProfileDes:
+              "There is no profile available for now. please add your profile for better experience.",
+          LocalString.categoryPoster: "Category Poster",
+          LocalString.connectionIntro:
+              "You are not connected to the internet Make sure Wi-Fi is on, Flight mode is off and try again.",
+          LocalString.noSelectedProfile:
+              "Embark on the app's journey with your unique profile! To create one, just tap the button below. It's a breeze, only two clicks away!",
+          LocalString.profileDetails: "Profile Details",
+          LocalString.addProfile: "Add Profile",
+          LocalString.updateProfile: "Update Profile",
+          LocalString.update: "Update",
+          LocalString.festivaCropper: 'Festiva Cropper',
+          LocalString.uploadLogo: "Upload Logo",
+          LocalString.download: "Download",
+          LocalString.uploadFirmLogo: "Upload Firm Logo",
+          LocalString.personal: "Personal",
+          LocalString.business: "Business",
+          LocalString.selectType: "Please Select Profile Type:",
+          LocalString.name: "Name",
+          LocalString.number: "Number",
+          LocalString.mobileNumber: "Mobile Number",
+          LocalString.emailAddress: "Email Address",
+          LocalString.email: "Email",
+          LocalString.address: "Address",
+          LocalString.continueButton: "Continue",
+          LocalString.warning: "Warning",
+          LocalString.pickLanguage: "Pick Your Language:",
+          LocalString.currentLanguage: "Current Language",
+          LocalString.logoWarning: "Please Upload Logo",
+          LocalString.profileTypeWarning: "Please Select Profile Type",
+          LocalString.myProfileList: "My Profile List",
+          LocalString.languages: "My Language",
+          LocalString.exitWarning: "Are You Sure you want close the app?",
+          LocalString.profileWarning:
+              "Are you sure you want to delete this profile?",
+          LocalString.exit: "Exit",
+          LocalString.yes: "Yes",
+          LocalString.no: "No",
+          LocalString.somethingWentWrong: "Something Went Wrong",
+          LocalString.logo: "Logo",
+          LocalString.color: "Color",
+          LocalString.opacity: "Opacity",
+          LocalString.scale: "Scale",
+          LocalString.frame: "Frame",
+          LocalString.pickLogoColor: "Pick a Logo color",
+          LocalString.pickFrameColor: "Pick a Frame color",
+          LocalString.radius: "Radius",
+          LocalString.shape: "Shape",
+          LocalString.fonts: "Fonts",
+          LocalString.frameMargin: "Frame Margin",
+          LocalString.logoMargin: "Logo Margin",
+          LocalString.margin: "Margin",
+          LocalString.border: "Border",
+          LocalString.posterBorder: "Poster Border",
+          LocalString.logoRadius: "Logo Radius",
+          LocalString.frameRadius: "Frame Radius",
+          LocalString.logoBorder: "Logo Border",
+          LocalString.strokeWidth: "Stroke Width",
+          LocalString.borderOpacity: "Border Opacity",
+          LocalString.logoColor: "Logo Color",
+          LocalString.frameColor: "Frame Color",
+          LocalString.nameColor: "Name Color",
+          LocalString.borderColor: "Border Color",
+          LocalString.topLeft: "Top Left",
+          LocalString.topRight: "Top Right",
+          LocalString.bottomLeft: "Bottom Left",
+          LocalString.bottomRight: "Bottom Right",
+          LocalString.nameBoxRadius: "Name Box Radius",
+          LocalString.topMargin: "Top Margin",
+          LocalString.bottomMargin: "Bottom Margin",
+          LocalString.leftMargin: "Left Margin",
+          LocalString.rightMargin: "Right Margin",
+          LocalString.tools: "Tools",
+          LocalString.height: "Height",
+          LocalString.size: "Size",
+          LocalString.latterSpacing: "Spacing",
+          LocalString.nameFont: "Name Font",
+          LocalString.changeProfile: "Change Profile",
+          LocalString.numberColor: "Number Color",
+          LocalString.numberFont: "Number Font",
+          LocalString.emailColor: "Email Color",
+          LocalString.emailFont: "Email Color",
+          LocalString.addressColor: "Address Color",
+          LocalString.addressFont: "Address Font",
+          LocalString.preview: "Preview",
+          LocalString.empty: "Empty",
+          LocalString.privacy: "Privacy",
+          LocalString.termsAndConditions: "Terms & Conditions",
+          LocalString.rateMyApp: "Rate App",
+          LocalString.share: "Share",
+          LocalString.help: "Help",
+          LocalString.vertical: "Vertical",
+          LocalString.horizontal: "Horizontal",
+          LocalString.contentAlign: "Content Align",
+          LocalString.downloadSuccessful: "Image Downloaded Successfully",
+          LocalString.emptyDownLoad:
+              "There is no download image, please explore more with our latest collections.",
+          LocalString.emptyImages:
+              "There is no images, Please refresh the feeds or try to re-open the app.",
+          LocalString.itsPremium: "It's a Premium",
+          LocalString.pleaseWatchVideo:
+              "Get the Pro plan or watch the complete video Ad to unlock this Poster",
+          LocalString.watch: "Watch",
+          LocalString.removeWaterMark: "Remove Watermark",
+          LocalString.pleaseWatchVideoWaterMart:
+              "Get the Pro plan or watch a complete video ad to remove the watermark.",
+          LocalString.cancel: "Cancel",
+          LocalString.save: "Save",
+          LocalString.myProfile: "My Profile",
+          LocalString.noSliderData: "No Slider Data",
+          LocalString.deleteWarning: "Are You Sure you want delete this file?",
+          LocalString.addProfileWarning:
+              "To access the poster, please create at least one profile for continuous use. This will ensure a smoother experience for you.",
+          LocalString.likes: "Likes",
+          LocalString.searchCatagory: "Search catagory",
+          LocalString.emptySearch: "No search results found.",
+          LocalString.removeFromList:
+              "Are you sure you want remove this poster from favorite list?",
+          LocalString.emptyLikes:
+              "There are no liked Posters for now! Click the heart icon to add it to your favorites.",
+          LocalString.swatchWarning:
+              "We noticed that there is only one profile on your profile list, "
+                  "if you want to switch the profile then you have to add more profiles to "
+                  "your profile list.",
+          LocalString.failedToLoadAds: "Failed To Load Ads",
+          LocalString.loading: "Loading",
+          LocalString.getPro: "Get Pro"
+        },
+        'hi_IN': {
+          LocalString.title: "फेस्टिवा पोस्टर निर्माता",
+          LocalString.home: "घर",
+          LocalString.picture: "चित्र",
+          LocalString.profile: "प्रोफ़ाइल",
+          LocalString.editPoster: "संपादित पोस्टर",
+          LocalString.selectProfile: "प्रोफ़ाइल चुनें",
+          LocalString.viewAll: "सभी को देखें",
+          LocalString.noInternet: "कोई इंटरनेट नहीं",
+          LocalString.noData: "कोई डेटा नहीं",
+          LocalString.noProfile: "कोई प्रोफ़ाइल नहीं",
+          LocalString.noProfileDes:
+              "फिलहाल कोई प्रोफ़ाइल उपलब्ध नहीं है. बेहतर अनुभव के लिए कृपया अपनी प्रोफ़ाइल जोड़ें।",
+          LocalString.categoryPoster: "श्रेणी पोस्टर",
+          LocalString.connectionIntro:
+              "आप इंटरनेट से कनेक्ट नहीं हैं सुनिश्चित करें कि वाई-फ़ाई चालू है, फ़्लाइट मोड बंद है और पुनः प्रयास करें।",
+          LocalString.noSelectedProfile:
+              "अपनी अनूठी प्रोफ़ाइल के साथ ऐप की यात्रा शुरू करें! एक बनाने के लिए, बस नीचे दिए गए बटन पर टैप करें। यह बहुत आसान है, केवल दो क्लिक दूर!",
+          LocalString.profileDetails: "प्रोफ़ाइल विवरण",
+          LocalString.addProfile: "प्रोफ़ाइल जोड़ें",
+          LocalString.updateProfile: "अपडेट प्रोफ़ाइल",
+          LocalString.update: "अपडेट",
+          LocalString.festivaCropper: 'फेस्टिवा क्रॉपर',
+          LocalString.uploadLogo: "अपलोड लोगो",
+          LocalString.download: "डाउनलोड",
+          LocalString.uploadFirmLogo: "अपलोड फर्म लोगो",
+          LocalString.personal: "निजी",
+          LocalString.business: "व्यापार",
+          LocalString.selectType: "कृपया प्रोफ़ाइल प्रकार चुनें:",
+          LocalString.name: "नाम",
+          LocalString.number: "संख्या",
+          LocalString.mobileNumber: "मोबाइल नंबर",
+          LocalString.emailAddress: "मेल पता",
+          LocalString.email: "मेल",
+          LocalString.address: "पता",
+          LocalString.continueButton: "अगला",
+          LocalString.warning: "चेतावनी",
+          LocalString.pickLanguage: "अपनी भाषा चुनें:",
+          LocalString.currentLanguage: "वर्तमान भाषा",
+          LocalString.logoWarning: "कृपया लोगो अपलोड करें",
+          LocalString.profileTypeWarning: "कृपया प्रोफ़ाइल प्रकार चुनें",
+          LocalString.myProfileList: "मेरी प्रोफ़ाइल सूची",
+          LocalString.languages: "मेरी भाषा",
+          LocalString.exitWarning: "क्या आप वाकई ऐप बंद करना चाहते हैं?",
+          LocalString.profileWarning:
+              "क्या आप वाकई इस प्रोफ़ाइल को हटाना चाहते हैं?",
+          LocalString.exit: "बाहर",
+          LocalString.yes: "हाँ",
+          LocalString.no: "नहीं",
+          LocalString.logo: "प्रतीक",
+          LocalString.color: "रंग",
+          LocalString.opacity: "अस्पष्टता",
+          LocalString.scale: "पैमाना",
+          LocalString.frame: "फ़्रेम",
+          LocalString.pickLogoColor: "लोगो का रंग चुनें",
+          LocalString.pickFrameColor: "फ़्रेम का रंग चुनें",
+          LocalString.radius: "त्रिज्या",
+          LocalString.shape: "आकार",
+          LocalString.fonts: "फोंट्स",
+          LocalString.frameMargin: "फ़्रेम मार्जिन",
+          LocalString.logoMargin: "लोगो मार्जिन",
+          LocalString.margin: "अंतर",
+          LocalString.border: "सीमा",
+          LocalString.posterBorder: "पोस्टर सीमा",
+          LocalString.logoRadius: "लोगो त्रिज्या",
+          LocalString.frameRadius: "फ़्रेम त्रिज्या",
+          LocalString.logoBorder: "लोगो सीमा",
+          LocalString.strokeWidth: "रेखा की चौड़ाई",
+          LocalString.borderOpacity: "सीमा अपारदर्शिता",
+          LocalString.logoColor: "लोगो रंग",
+          LocalString.frameColor: "फ़्रेम रंग",
+          LocalString.nameColor: "नाम रंग",
+          LocalString.borderColor: "सीमा रंग",
+          LocalString.topLeft: "ऊपर बाएँ ",
+          LocalString.topRight: "ऊपर दांए",
+          LocalString.bottomLeft: "नीचे बाएँ ",
+          LocalString.bottomRight: "नीचे दांए",
+          LocalString.nameBoxRadius: "नाम बॉक्स त्रिज्या",
+          LocalString.topMargin: "ऊपर अंतर",
+          LocalString.bottomMargin: "नीचे अंतर",
+          LocalString.leftMargin: "बाएँ अंतर",
+          LocalString.rightMargin: "दांए अंतर",
+          LocalString.tools: "औजार",
+          LocalString.height: "ऊंचाई",
+          LocalString.size: "आकार",
+          LocalString.latterSpacing: "अंतर",
+          LocalString.nameFont: "नाम फ़ॉन्ट",
+          LocalString.changeProfile: "प्रोफ़ाइल परिवर्तन",
+          LocalString.numberColor: "नंबर रंग",
+          LocalString.numberFont: "नंबर फ़ॉन्ट",
+          LocalString.emailColor: "मेल रंग",
+          LocalString.emailFont: "मेल फ़ॉन्ट",
+          LocalString.addressColor: "पता रंग",
+          LocalString.addressFont: "पता फ़ॉन्ट",
+          LocalString.preview: "पूर्व दर्शन",
+          LocalString.empty: "खाली",
+          LocalString.privacy: "गोपनीयता",
+          LocalString.termsAndConditions: "नियम एवं शर्तें",
+          LocalString.rateMyApp: "एप्प का मूल्यांकन",
+          LocalString.share: "शेयर करना",
+          LocalString.help: "मदद",
+          LocalString.vertical: "खड़ा",
+          LocalString.horizontal: "क्षैतिज",
+          LocalString.contentAlign: "सामग्री संरेखित करें",
+          LocalString.downloadSuccessful: "छवि सफलतापूर्वक डाउनलोड हो गई",
+          LocalString.emptyDownLoad:
+              "कोई डाउनलोड छवि नहीं है, कृपया हमारे नवीनतम संग्रहों के साथ और अधिक जानकारी प्राप्त करें।",
+          LocalString.emptyImages:
+              "कोई चित्र नहीं है, कृपया फ़ीड ताज़ा करें या ऐप को फिर से खोलने का प्रयास करें।",
+          LocalString.itsPremium: "यह एक प्रीमियम है",
+          LocalString.pleaseWatchVideo:
+              "इस पोस्टर को अनलॉक करने के लिए प्रो प्लान प्राप्त करें या पूरा वीडियो देखें",
+          LocalString.watch: "देखें",
+          LocalString.removeWaterMark: "निशान हटाएं",
+          LocalString.pleaseWatchVideoWaterMart:
+              "वॉटरमार्क हटाने के लिए प्रो प्लान प्राप्त करें या पूरा वीडियो विज्ञापन देखें।",
+          LocalString.cancel: "रद्द करना",
+          LocalString.save: "बचाना",
+          LocalString.myProfile: "मेरी प्रोफ़ाइल",
+          LocalString.noSliderData: "कोई स्लाइडर डेटा नहीं",
+          LocalString.deleteWarning:
+              "क्या आप वाकई इस फ़ाइल को हटाना चाहते हैं?",
+          LocalString.addProfileWarning:
+              "पोस्टर तक पहुंचने के लिए, कृपया निरंतर उपयोग के लिए कम से कम एक प्रोफ़ाइल बनाएं। यह आपके लिए एक सहज अनुभव सुनिश्चित करेगा.",
+          LocalString.somethingWentWrong: "कुछ गलत हो गया",
+          LocalString.likes: "पसंद ",
+          LocalString.searchCatagory: "श्रेणी खोजें",
+          LocalString.emptySearch: "कोई खोज परिणाम नहीं मिला.",
+          LocalString.removeFromList:
+              "क्या आप वाकई इस पोस्टर को पसंदीदा सूची से हटाना चाहते हैं?",
+          LocalString.emptyLikes:
+              "फिलहाल कोई पसंदीदा पोस्टर नहीं है! इसे अपने पसंदीदा में जोड़ने के लिए दिल आइकन पर क्लिक करें।",
+          LocalString.swatchWarning:
+              "हमने देखा कि आपकी प्रोफ़ाइल सूची में केवल एक प्रोफ़ाइल है, यदि आप प्रोफ़ाइल बदलना चाहते हैं तो आपको अपनी प्रोफ़ाइल सूची में और प्रोफ़ाइल जोड़नी होंगी।",
+          LocalString.failedToLoadAds: "विज्ञापन लोड करने में विफल",
+          LocalString.loading: "लोड ",
+          LocalString.getPro: "समर्थक बनो"
+        },
+        'gu_IN': {
+          LocalString.title: "ફેસ્ટિવ પોસ્ટર મેકર",
+          LocalString.home: "ઘર",
+          LocalString.picture: "ચિત્ર",
+          LocalString.profile: "પ્રોફાઇલ",
+          LocalString.editPoster: "સંપાદિત પોસ્ટર",
+          LocalString.selectProfile: "પ્રોફાઇલ પસંદ કરો",
+          LocalString.viewAll: "બધુજ જુઓ",
+          LocalString.noInternet: "ઇન્ટરનેટ નથી",
+          LocalString.noData: "કોઈ ડેટા નથી",
+          LocalString.noProfile: "કોઈ પ્રોફાઇલ નથી",
+          LocalString.noProfileDes:
+              "અત્યારે કોઈ પ્રોફાઇલ ઉપલબ્ધ નથી. વધુ સારા અનુભવ માટે કૃપા કરીને તમારી પ્રોફાઇલ ઉમેરો.",
+          LocalString.categoryPoster: "શ્રેણી પોસ્ટર",
+          LocalString.connectionIntro:
+              "તમે ઇન્ટરનેટથી કનેક્ટેડ નથી તેની ખાતરી કરો કે Wi-Fi ચાલુ છે, ફ્લાઇટ મોડ બંધ છે અને ફરી પ્રયાસ કરો.",
+          LocalString.noSelectedProfile:
+              "તમારી અનન્ય પ્રોફાઇલ સાથે એપ્લિકેશનની મુસાફરી શરૂ કરો! એક બનાવવા માટે, ફક્ત નીચેના બટનને ટેપ કરો. તે પવનની લહેર છે, માત્ર બે ક્લિક દૂર છે!",
+          LocalString.profileDetails: "પ્રોફાઇલ વિગતો",
+          LocalString.addProfile: "પ્રોફાઇલ ઉમેરો",
+          LocalString.updateProfile: "પ્રોફાઇલ અપડેટ",
+          LocalString.update: "અપડેટ",
+          LocalString.festivaCropper: 'ફેસ્ટિવ પાક',
+          LocalString.uploadLogo: "લોગો અપલોડ કરો",
+          LocalString.download: "ડાઉનલોડ",
+          LocalString.uploadFirmLogo: "અપલોડ ફર્મ લોગો",
+          LocalString.personal: "અંગત",
+          LocalString.business: "બિઝનેસ",
+          LocalString.selectType: "કૃપા કરીને પ્રોફાઇલ પ્રકાર પસંદ કરો:",
+          LocalString.name: "નામ",
+          LocalString.number: "નંબર",
+          LocalString.mobileNumber: "મોબાઇલ નંબર",
+          LocalString.emailAddress: "ઈ - મેઈલ સરનામું",
+          LocalString.email: "ઈ - મેઈલ",
+          LocalString.address: "સરનામું",
+          LocalString.continueButton: "આગળ",
+          LocalString.warning: "ચેતવણી",
+          LocalString.pickLanguage: "તમારી ભાષા પસંદ કરો:",
+          LocalString.currentLanguage: "વર્તમાન ભાષા",
+          LocalString.logoWarning: "કૃપા કરીને લોગો અપલોડ કરો",
+          LocalString.profileTypeWarning: "કૃપા કરીને પ્રોફાઇલ પ્રકાર પસંદ કરો",
+          LocalString.myProfileList: "મારી પ્રોફાઇલ યાદી",
+          LocalString.languages: "મારી ભાષા",
+          LocalString.exitWarning: "શું તમે ખરેખર એપ બંધ કરવા માંગો છો?",
+          LocalString.profileWarning:
+              "શું તમે ખરેખર આ પ્રોફાઇલ કાઢી નાખવા માંગો છો?",
+          LocalString.exit: "બહાર",
+          LocalString.yes: "હા",
+          LocalString.no: "ના",
+          LocalString.logo: "લોગો",
+          LocalString.color: "રંગ",
+          LocalString.opacity: "અસ્પષ્ટતા",
+          LocalString.scale: "સ્કેલ",
+          LocalString.frame: "ફ્રેમ",
+          LocalString.pickLogoColor: "લોગોનો રંગ ચૂંટો",
+          LocalString.pickFrameColor: "ફ્રેમ રંગ ચૂંટો",
+          LocalString.radius: "ત્રિજ્યા",
+          LocalString.shape: "આકાર",
+          LocalString.fonts: "ફોન્ટ્સ",
+          LocalString.frameMargin: "ફ્રેમ માર્જિન",
+          LocalString.logoMargin: "લોગો માર્જિન",
+          LocalString.margin: "માર્જિન",
+          LocalString.border: "સરહદ",
+          LocalString.posterBorder: "પોસ્ટર સરહદ",
+          LocalString.logoRadius: "લોગો ત્રિજ્યા",
+          LocalString.frameRadius: "ફ્રેમ ત્રિજ્યા",
+          LocalString.logoBorder: "લોગો બોર્ડર",
+          LocalString.strokeWidth: "સ્ટ્રોક પહોળાઈ",
+          LocalString.borderOpacity: "બોર્ડર અસ્પષ્ટતા",
+          LocalString.logoColor: "લોગો રંગ",
+          LocalString.frameColor: "ફ્રેમ રંગ",
+          LocalString.nameColor: "નામ રંગ",
+          LocalString.borderColor: "સરહદ કલર",
+          LocalString.topLeft: "ઉપર ડાબી ",
+          LocalString.topRight: "ઉપર જમણી",
+          LocalString.bottomLeft: "નીચે ડાબી",
+          LocalString.bottomRight: "નીચે જમણી",
+          LocalString.nameBoxRadius: "નામ બોક્સ ત્રિજ્યા",
+          LocalString.topMargin: "ઉપર માર્જિન",
+          LocalString.bottomMargin: "નીચે માર્જિન",
+          LocalString.leftMargin: "ડાબી માર્જિન",
+          LocalString.rightMargin: "જમણી માર્જિન",
+          LocalString.tools: "સાધનો",
+          LocalString.height: "ઊંચાઈ",
+          LocalString.size: "કદ",
+          LocalString.latterSpacing: "અંતર",
+          LocalString.nameFont: "નામ ફોન્ટ",
+          LocalString.changeProfile: "પ્રોફાઇલ બદલો",
+          LocalString.numberColor: "નંબર રંગ",
+          LocalString.numberFont: "નંબર ફોન્ટ",
+          LocalString.emailColor: "ઈમેલ કલર",
+          LocalString.emailFont: "ઈમેલ ફોન્ટ",
+          LocalString.addressColor: "સરનામું રંગ",
+          LocalString.addressFont: "સરનામું ફોન્ટ",
+          LocalString.preview: "પૂર્વા લોકન",
+          LocalString.empty: "ખાલી",
+          LocalString.privacy: "ગોપનીયતા",
+          LocalString.termsAndConditions: "શરતો અને નિયમો",
+          LocalString.rateMyApp: "એપ્લિકેશનને રેટ",
+          LocalString.share: "શેર",
+          LocalString.help: "મદદ",
+          LocalString.vertical: "વર્ટિકલ",
+          LocalString.horizontal: "આડી",
+          LocalString.contentAlign: "સામગ્રી સંરેખિત",
+          LocalString.downloadSuccessful: "છબી સફળતાપૂર્વક ડાઉનલોડ થઈ",
+          LocalString.emptyDownLoad:
+              "ત્યાં કોઈ ડાઉનલોડ છબી નથી, કૃપા કરીને અમારા નવીનતમ સંગ્રહો સાથે વધુ શોધખોળ કરો.",
+          LocalString.emptyImages:
+              "ત્યાં કોઈ છબીઓ નથી, કૃપા કરીને ફીડ્સને તાજું કરો અથવા એપ્લિકેશનને ફરીથી ખોલવાનો પ્રયાસ કરો.",
+          LocalString.itsPremium: "તે પ્રીમિયમ છે",
+          LocalString.pleaseWatchVideo:
+              "આ પોસ્ટરને અનલૉક કરવા માટે પ્રો પ્લાન મેળવો અથવા સંપૂર્ણ વિડિઓ જાહેરાત જુઓ",
+          LocalString.watch: "જુઓ",
+          LocalString.removeWaterMark: "વોટરમાર્ક દૂર કરો",
+          LocalString.pleaseWatchVideoWaterMart:
+              "વોટરમાર્ક દૂર કરવા માટે પ્રો પ્લાન પ્રાપ્ત કરો અથવા પૂર્ણ વિડિઓ જાહેરાતો જુઓ.",
+          LocalString.cancel: "રદ કરો",
+          LocalString.save: "સાચવો",
+          LocalString.myProfile: "મારી પ્રોફાઇલ",
+          LocalString.noSliderData: "કોઈ સ્લાઇડર ડેટા નથીं",
+          LocalString.deleteWarning:
+              "શું તમે ખરેખર આ ફાઇલ કાઢી નાખવા માંગો છો?",
+          LocalString.addProfileWarning:
+              "પોસ્ટરને ઍક્સેસ કરવા માટે, કૃપા કરીને સતત ઉપયોગ માટે ઓછામાં ઓછી એક પ્રોફાઇલ બનાવો. આ તમારા માટે સરળ અનુભવની ખાતરી કરશે.",
+          LocalString.somethingWentWrong: "કંઈક ખોટું થયું",
+          LocalString.likes: "પસંદ",
+          LocalString.searchCatagory: "શોધ શ્રેણી",
+          LocalString.emptySearch: "કોઈ શોધ પરિણામો મળ્યાં નથી.",
+          LocalString.removeFromList:
+              "શું તમે ખરેખર આ પોસ્ટરને મનપસંદ સૂચિમાંથી દૂર કરવા માંગો છો?",
+          LocalString.emptyLikes:
+              "અત્યારે કોઈ ગમ્યું પોસ્ટર નથી! તેને તમારા મનપસંદમાં ઉમેરવા માટે હાર્ટ આઇકન પર ક્લિક કરો.",
+          LocalString.swatchWarning:
+              "અમે નોંધ્યું છે કે તમારી પ્રોફાઇલ સૂચિમાં ફક્ત એક જ પ્રોફાઇલ છે. જો તમે પ્રોફાઇલ સ્વિચ કરવા માંગો છો, તો તમારે તમારી પ્રોફાઇલ સૂચિમાં વધુ પ્રોફાઇલ ઉમેરવાની રહેશે.",
+          LocalString.failedToLoadAds: "જાહેરાત લોડ કરવામાં નિષ્ફળ",
+          LocalString.loading: "લોડિંગ",
+          LocalString.getPro: "પ્રો મેળવો"
+        },
+        'pa_IN': {
+          LocalString.title: "ਫਾਸਟਿਵਾ ਪੋਸਟਰ ਮੇਕਰ",
+          LocalString.home: "ਮੁੱਖ ਪੰਨਾ",
+          LocalString.picture: "ਤਸਵੀਰ",
+          LocalString.profile: "ਪ੍ਰੋਫਾਈਲ",
+          LocalString.editPoster: "ਪੋਸਟਰ ਸੰਪਾਦਿਤ ਕਰੋ",
+          LocalString.selectProfile: "ਪ੍ਰੋਫਾਈਲ ਚੁਣੋ",
+          LocalString.viewAll: "ਸਭ ਦੇਖੋ",
+          LocalString.noInternet: "ਕੋਈ ਇੰਟਰਨੈੱਟ ਨਹੀਂ",
+          LocalString.noData: "ਕੋਈ ਡਾਟਾ ਨਹੀਂ",
+          LocalString.noProfile: "ਕੋਈ ਪ੍ਰੋਫਾਈਲ ਨਹੀਂ",
+          LocalString.noProfileDes:
+              "ਇਸ ਸਮੇਂ ਲਈ ਕੋਈ ਪ੍ਰੋਫਾਈਲ ਉਪਲਬਧ ਨਹੀਂ। ਬਿਹਤਰ ਅਨੁਭਵ ਲਈ ਆਪਣੀ ਪ੍ਰੋਫਾਈਲ ਸ਼ਾਮਿਲ ਕਰੋ।",
+          LocalString.categoryPoster: "ਸ਼੍ਰੇਣੀ ਪੋਸਟਰ",
+          LocalString.connectionIntro:
+              "ਤੁਸੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਨਹੀਂ ਜੁੜੇ ਹੋ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ Wi-Fi ਚਾਲੂ ਹੈ, ਫਲਾਈਟ ਮੋਡ ਬੰਦ ਹੈ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+          LocalString.noSelectedProfile:
+              "ਐਪ ਦੀ ਯਾਤਰਾ ਦੀ ਸ਼ੁਰੂਆਤ ਕਰੋ ਆਪਣੀ ਵਿਲੱਖਣ ਪ੍ਰੋਫਾਈਲ ਨਾਲ! ਇਕ ਬਣਾਉਣ ਲਈ, ਹੇਠਾਂ ਦਿੱਤੇ ਬਟਨ 'ਤੇ ਟੈਪ ਕਰੋ। ਇਹ ਸਿਰਫ ਦੋ ਕਲਿੱਕਾਂ ਦੀ ਗੱਲ ਹੈ!",
+          LocalString.profileDetails: "ਪ੍ਰੋਫਾਈਲ ਵੇਰਵੇ",
+          LocalString.addProfile: "ਪ੍ਰੋਫਾਈਲ ਸ਼ਾਮਿਲ ਕਰੋ",
+          LocalString.updateProfile: "ਪ੍ਰੋਫਾਈਲ ਅਪਡੇਟ ਕਰੋ",
+          LocalString.update: "ਅਪਡੇਟ",
+          LocalString.festivaCropper: 'ਫੈਸਟੀਵਾ ਕਰੌਪਰ',
+          LocalString.uploadLogo: "ਲੋਗੋ ਅੱਪਲੋਡ ਕਰੋ",
+          LocalString.download: "ਡਾਊਨਲੋਡ",
+          LocalString.uploadFirmLogo: "ਫਰਮ ਦਾ ਲੋਗੋ ਅੱਪਲੋਡ ਕਰੋ",
+          LocalString.personal: "ਨਿੱਜੀ",
+          LocalString.business: "ਵਪਾਰਕ",
+          LocalString.selectType: "ਕਿਰਪਾ ਕਰਕੇ ਪ੍ਰੋਫਾਈਲ ਕਿਸਮ ਚੁਣੋ:",
+          LocalString.name: "ਨਾਮ",
+          LocalString.number: "ਨੰਬਰ",
+          LocalString.mobileNumber: "ਮੋਬਾਈਲ ਨੰਬਰ",
+          LocalString.emailAddress: "ਈਮੇਲ ਐਡਰੈੱਸ",
+          LocalString.email: "ਈਮੇਲ",
+          LocalString.address: "ਐਡਰੈੱਸ",
+          LocalString.continueButton: "ਜਾਰੀ ਰੱਖੋ",
+          LocalString.warning: "ਚੇਤਾਵਨੀ",
+          LocalString.pickLanguage: "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ:",
+          LocalString.currentLanguage: "ਮੌਜੂਦਾ ਭਾਸ਼ਾ",
+          LocalString.logoWarning: "ਕਿਰਪਾ ਕਰਕੇ ਲੋਗੋ ਅੱਪਲੋਡ ਕਰੋ",
+          LocalString.profileTypeWarning: "ਕਿਰਪਾ ਕਰਕੇ ਪ੍ਰੋਫਾਈਲ ਕਿਸਮ ਚੁਣੋ",
+          LocalString.myProfileList: "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ ਸੂਚੀ",
+          LocalString.languages: "ਮੇਰੀ ਭਾਸ਼ਾ",
+          LocalString.exitWarning:
+              "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਐਪ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+          LocalString.profileWarning:
+              "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇਹ ਪ੍ਰੋਫਾਈਲ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+          LocalString.exit: "ਨਿਕਾਸ",
+          LocalString.yes: "ਹਾਂ",
+          LocalString.no: "ਨਹੀਂ",
+          LocalString.somethingWentWrong: "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ",
+          LocalString.logo: "ਲੋਗੋ",
+          LocalString.color: "ਰੰਗ",
+          LocalString.opacity: "ਪਾਰਦਰਸ਼ਤਾ",
+          LocalString.scale: "ਸਕੇਲ",
+          LocalString.frame: "ਫਰੇਮ",
+          LocalString.pickLogoColor: "ਲੋਗੋ ਲਈ ਰੰਗ ਚੁਣੋ",
+          LocalString.pickFrameColor: "ਫਰੇਮ ਲਈ ਰੰਗ ਚੁਣੋ",
+          LocalString.radius: "ਰੇਡੀਅਸ",
+          LocalString.shape: "ਆਕਾਰ",
+          LocalString.fonts: "ਫੋਂਟਸ",
+          LocalString.frameMargin: "ਫਰੇਮ ਮਾਰਜਿਨ",
+          LocalString.logoMargin: "ਲੋਗੋ ਮਾਰਜਿਨ",
+          LocalString.margin: "ਮਾਰਜਿਨ",
+          LocalString.border: "ਬੌਰਡਰ",
+          LocalString.posterBorder: "ਪੋਸਟਰ ਬੌਰਡਰ",
+          LocalString.logoRadius: "ਲੋਗੋ ਰੇਡੀਅਸ",
+          LocalString.frameRadius: "ਫਰੇਮ ਰੇਡੀਅਸ",
+          LocalString.logoBorder: "ਲੋਗੋ ਬੌਰਡਰ",
+          LocalString.strokeWidth: "ਸਟ੍ਰੋਕ ਚੌੜਾਈ",
+          LocalString.borderOpacity: "ਬੌਰਡਰ ਪਾਰਦਰਸ਼ਤਾ",
+          LocalString.logoColor: "ਲੋਗੋ ਰੰਗ",
+          LocalString.frameColor: "ਫਰੇਮ ਰੰਗ",
+          LocalString.nameColor: "ਨਾਮ ਰੰਗ",
+          LocalString.borderColor: "ਬੌਰਡਰ ਰੰਗ",
+          LocalString.topLeft: "ਉੱਤੇ ਖੱਬੇ",
+          LocalString.topRight: "ਉੱਤੇ ਸੱਜੇ",
+          LocalString.bottomLeft: "ਹੇਠਾਂ ਖੱਬੇ",
+          LocalString.bottomRight: "ਹੇਠਾਂ ਸੱਜੇ",
+          LocalString.nameBoxRadius: "ਨਾਮ ਬਾਕਸ ਰੇਡੀਅਸ",
+          LocalString.topMargin: "ਉੱਤਲਾ ਮਾਰਜਿਨ",
+          LocalString.bottomMargin: "ਹੇਠਲਾ ਮਾਰਜਿਨ",
+          LocalString.leftMargin: "ਖੱਬਾ ਮਾਰਜਿਨ",
+          LocalString.rightMargin: "ਸੱਜਾ ਮਾਰਜਿਨ",
+          LocalString.tools: "ਟੂਲਸ",
+          LocalString.height: "ਉਚਾਈ",
+          LocalString.size: "ਆਕਾਰ",
+          LocalString.latterSpacing: "ਅੰਤਰਾਲ",
+          LocalString.nameFont: "ਨਾਮ ਫੋਂਟ",
+          LocalString.changeProfile: "ਪ੍ਰੋਫਾਈਲ ਬਦਲੋ",
+          LocalString.numberColor: "ਨੰਬਰ ਰੰਗ",
+          LocalString.numberFont: "ਨੰਬਰ ਫੋਂਟ",
+          LocalString.emailColor: "ਈਮੇਲ ਰੰਗ",
+          LocalString.emailFont: "ਈਮੇਲ ਫੋਂਟ",
+          LocalString.addressColor: "ਐਡਰੈੱਸ ਰੰਗ",
+          LocalString.addressFont: "ਐਡਰੈੱਸ ਫੋਂਟ",
+          LocalString.preview: "ਝਲਕ",
+          LocalString.empty: "ਖਾਲੀ",
+          LocalString.privacy: "ਪਰਦਾਰੀ",
+          LocalString.termsAndConditions: "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+          LocalString.rateMyApp: "ਐਪ ਦੀ ਰੇਟਿੰਗ ਦਿਓ",
+          LocalString.share: "ਸਾਂਝਾ ਕਰੋ",
+          LocalString.help: "ਮਦਦ",
+          LocalString.vertical: "ਲੰਬਕਾਰੀ",
+          LocalString.horizontal: "ਆੜੀ",
+          LocalString.contentAlign: "ਸਮੱਗਰੀ ਅਨੁਕੂਲਤਾ",
+          LocalString.downloadSuccessful: "ਚਿੱਤਰ ਸਫਲਤਾਪੂਰਵਕ ਡਾਊਨਲੋਡ ਹੋਇਆ",
+          LocalString.emptyDownLoad:
+              "ਇਥੇ ਕੋਈ ਡਾਊਨਲੋਡ ਚਿੱਤਰ ਨਹੀਂ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਸਾਡੀ ਨਵੀਨਤਮ ਸੰਗ੍ਰਹਿ ਨਾਲ ਹੋਰ ਖੋਜੋ।",
+          LocalString.emptyImages:
+              "ਇੱਥੇ ਕੋਈ ਚਿੱਤਰ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਫੀਡ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ ਜਾਂ ਐਪ ਮੁੜ ਖੋਲ੍ਹੋ।",
+          LocalString.itsPremium: "ਇਹ ਪ੍ਰੀਮੀਅਮ ਹੈ",
+          LocalString.pleaseWatchVideo:
+              "ਪੋਸਟਰ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਪੂਰੀ ਵੀਡੀਓ ਵੇਖੋ ਜਾਂ ਪ੍ਰੋ ਪਲਾਨ ਪ੍ਰਾਪਤ ਕਰੋ",
+          LocalString.watch: "ਵੇਖੋ",
+          LocalString.removeWaterMark: "ਵਾਟਰਮਾਰਕ ਹਟਾਓ",
+          LocalString.pleaseWatchVideoWaterMart:
+              "ਵਾਟਰਮਾਰਕ ਹਟਾਉਣ ਲਈ ਪੂਰੀ ਵੀਡੀਓ ਐਡ ਵੇਖੋ ਜਾਂ ਪ੍ਰੋ ਪਲਾਨ ਪ੍ਰਾਪਤ ਕਰੋ।",
+          LocalString.cancel: "ਰੱਦ ਕਰੋ",
+          LocalString.save: "ਸੰਭਾਲੋ",
+          LocalString.myProfile: "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+          LocalString.noSliderData: "ਕੋਈ ਸਲਾਈਡਰ ਡਾਟਾ ਨਹੀਂ",
+          LocalString.deleteWarning: "ਕੀ ਤੁਸੀਂ ਇਹ ਫਾਈਲ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+          LocalString.addProfileWarning:
+              "ਪੋਸਟਰ ਤੱਕ ਪਹੁੰਚ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਪ੍ਰੋਫਾਈਲ ਬਣਾਓ। ਇਹ ਤੁਹਾਡਾ ਅਨੁਭਵ ਬਿਹਤਰ ਬਣਾਏਗਾ।",
+          LocalString.likes: "ਪਸੰਦ",
+          LocalString.searchCatagory: "ਸ਼੍ਰੇਣੀ ਖੋਜੋ",
+          LocalString.emptySearch: "ਕੋਈ ਖੋਜ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ।",
+          LocalString.removeFromList:
+              "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇਸ ਪੋਸਟਰ ਨੂੰ ਮਨਪਸੰਦ ਸੂਚੀ ਤੋਂ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+          LocalString.emptyLikes:
+              "ਇਸ ਵੇਲੇ ਕੋਈ ਪਸੰਦ ਕੀਤੇ ਪੋਸਟਰ ਨਹੀਂ ਹਨ! ਇਸਨੂੰ ਆਪਣੀ ਮਨਪਸੰਦ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਦਿਲ ਆਈਕਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+          LocalString.swatchWarning:
+              "ਸਾਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਤੁਹਾਡੀ ਸੂਚੀ ਵਿੱਚ ਸਿਰਫ ਇੱਕ ਪ੍ਰੋਫਾਈਲ ਹੈ। ਪ੍ਰੋਫਾਈਲ ਬਦਲਣ ਲਈ ਹੋਰ ਪ੍ਰੋਫਾਈਲ ਸ਼ਾਮਿਲ ਕਰੋ।",
+          LocalString.failedToLoadAds: "ਵਿਜ्ञਾਪਨ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+          LocalString.loading: "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ",
+          LocalString.getPro: "ਪ੍ਰੋ ਪ੍ਰਾਪਤ ਕਰੋ"
+        },
+        'bn_BD': {
+          LocalString.title: "ফাস্টিভা পোস্টার মেকার",
+          LocalString.home: "হোম",
+          LocalString.picture: "ছবি",
+          LocalString.profile: "প্রোফাইল",
+          LocalString.editPoster: "পোস্টার সম্পাদনা",
+          LocalString.selectProfile: "প্রোফাইল নির্বাচন করুন",
+          LocalString.viewAll: "সব দেখুন",
+          LocalString.noInternet: "ইন্টারনেট নেই",
+          LocalString.noData: "ডেটা নেই",
+          LocalString.noProfile: "কোনো প্রোফাইল নেই",
+          LocalString.noProfileDes:
+              "বর্তমানে কোনো প্রোফাইল পাওয়া যায়নি। উন্নত অভিজ্ঞতার জন্য অনুগ্রহ করে একটি প্রোফাইল যুক্ত করুন।",
+          LocalString.categoryPoster: "বিভাগ পোস্টার",
+          LocalString.connectionIntro:
+              "আপনি ইন্টারনেটের সাথে সংযুক্ত নন। নিশ্চিত করুন Wi-Fi চালু আছে, ফ্লাইট মোড বন্ধ আছে এবং পুনরায় চেষ্টা করুন।",
+          LocalString.noSelectedProfile:
+              "আপনার অনন্য প্রোফাইল দিয়ে অ্যাপের যাত্রা শুরু করুন! এটি তৈরি করতে নিচের বোতামে আলতো চাপ দিন। মাত্র দুই ক্লিকে কাজ শেষ!",
+          LocalString.profileDetails: "প্রোফাইলের বিস্তারিত",
+          LocalString.addProfile: "প্রোফাইল যোগ করুন",
+          LocalString.updateProfile: "প্রোফাইল আপডেট করুন",
+          LocalString.update: "আপডেট",
+          LocalString.festivaCropper: 'ফেস্টিভা ক্রপার',
+          LocalString.uploadLogo: "লোগো আপলোড করুন",
+          LocalString.download: "ডাউনলোড",
+          LocalString.uploadFirmLogo: "প্রতিষ্ঠানের লোগো আপলোড করুন",
+          LocalString.personal: "ব্যক্তিগত",
+          LocalString.business: "ব্যবসা",
+          LocalString.selectType: "অনুগ্রহ করে প্রোফাইল টাইপ নির্বাচন করুন:",
+          LocalString.name: "নাম",
+          LocalString.number: "নম্বর",
+          LocalString.mobileNumber: "মোবাইল নম্বর",
+          LocalString.emailAddress: "ইমেল ঠিকানা",
+          LocalString.email: "ইমেল",
+          LocalString.address: "ঠিকানা",
+          LocalString.continueButton: "চালিয়ে যান",
+          LocalString.warning: "সতর্কতা",
+          LocalString.pickLanguage: "আপনার ভাষা নির্বাচন করুন:",
+          LocalString.currentLanguage: "বর্তমান ভাষা",
+          LocalString.logoWarning: "অনুগ্রহ করে লোগো আপলোড করুন",
+          LocalString.profileTypeWarning:
+              "অনুগ্রহ করে প্রোফাইল টাইপ নির্বাচন করুন",
+          LocalString.myProfileList: "আমার প্রোফাইল তালিকা",
+          LocalString.languages: "আমার ভাষা",
+          LocalString.exitWarning: "আপনি কি নিশ্চিত অ্যাপটি বন্ধ করতে চান?",
+          LocalString.profileWarning:
+              "আপনি কি নিশ্চিত আপনি এই প্রোফাইলটি মুছে ফেলতে চান?",
+          LocalString.exit: "প্রস্থান",
+          LocalString.yes: "হ্যাঁ",
+          LocalString.no: "না",
+          LocalString.somethingWentWrong: "কিছু ভুল হয়েছে",
+          LocalString.logo: "লোগো",
+          LocalString.color: "রঙ",
+          LocalString.opacity: "অস্বচ্ছতা",
+          LocalString.scale: "স্কেল",
+          LocalString.frame: "ফ্রেম",
+          LocalString.pickLogoColor: "লোগোর রঙ বেছে নিন",
+          LocalString.pickFrameColor: "ফ্রেমের রঙ বেছে নিন",
+          LocalString.radius: "ত্রিজ্যা",
+          LocalString.shape: "আকৃতি",
+          LocalString.fonts: "ফন্ট",
+          LocalString.frameMargin: "ফ্রেম মার্জিন",
+          LocalString.logoMargin: "লোগো মার্জিন",
+          LocalString.margin: "মার্জিন",
+          LocalString.border: "বর্ডার",
+          LocalString.posterBorder: "পোস্টার বর্ডার",
+          LocalString.logoRadius: "লোগোর ত্রিজ্যা",
+          LocalString.frameRadius: "ফ্রেমের ত্রিজ্যা",
+          LocalString.logoBorder: "লোগো বর্ডার",
+          LocalString.strokeWidth: "স্ট্রোক প্রস্থ",
+          LocalString.borderOpacity: "বর্ডার অস্বচ্ছতা",
+          LocalString.logoColor: "লোগোর রঙ",
+          LocalString.frameColor: "ফ্রেমের রঙ",
+          LocalString.nameColor: "নামের রঙ",
+          LocalString.borderColor: "বর্ডারের রঙ",
+          LocalString.topLeft: "উপর বাম",
+          LocalString.topRight: "উপর ডান",
+          LocalString.bottomLeft: "নিচে বাম",
+          LocalString.bottomRight: "নিচে ডান",
+          LocalString.nameBoxRadius: "নেম বক্স ত্রিজ্যা",
+          LocalString.topMargin: "উপর মার্জিন",
+          LocalString.bottomMargin: "নিচে মার্জিন",
+          LocalString.leftMargin: "বাম মার্জিন",
+          LocalString.rightMargin: "ডান মার্জিন",
+          LocalString.tools: "টুলস",
+          LocalString.height: "উচ্চতা",
+          LocalString.size: "আকার",
+          LocalString.latterSpacing: "বর্ণ ব্যবধান",
+          LocalString.nameFont: "নেম ফন্ট",
+          LocalString.changeProfile: "প্রোফাইল পরিবর্তন করুন",
+          LocalString.numberColor: "নম্বরের রঙ",
+          LocalString.numberFont: "নম্বরের ফন্ট",
+          LocalString.emailColor: "ইমেলের রঙ",
+          LocalString.emailFont: "ইমেল ফন্ট",
+          LocalString.addressColor: "ঠিকানার রঙ",
+          LocalString.addressFont: "ঠিকানা ফন্ট",
+          LocalString.preview: "প্রিভিউ",
+          LocalString.empty: "ফাঁকা",
+          LocalString.privacy: "গোপনীয়তা",
+          LocalString.termsAndConditions: "শর্তাবলী",
+          LocalString.rateMyApp: "অ্যাপ রেট করুন",
+          LocalString.share: "শেয়ার করুন",
+          LocalString.help: "সহায়তা",
+          LocalString.vertical: "ভার্টিকাল",
+          LocalString.horizontal: "হরিজন্টাল",
+          LocalString.contentAlign: "বিষয়বস্তুর অবস্থান",
+          LocalString.downloadSuccessful: "ছবি সফলভাবে ডাউনলোড হয়েছে",
+          LocalString.emptyDownLoad:
+              "কোনো ডাউনলোডকৃত ছবি নেই, আমাদের সর্বশেষ সংগ্রহ থেকে আরও এক্সপ্লোর করুন।",
+          LocalString.emptyImages:
+              "কোনো ছবি নেই, অনুগ্রহ করে ফিড রিফ্রেশ করুন বা অ্যাপটি পুনরায় খুলে দেখুন।",
+          LocalString.itsPremium: "এটি একটি প্রিমিয়াম",
+          LocalString.pleaseWatchVideo:
+              "প্রো প্ল্যান নিন বা এই পোস্টার আনলক করতে একটি সম্পূর্ণ ভিডিও বিজ্ঞাপন দেখুন।",
+          LocalString.watch: "দেখুন",
+          LocalString.removeWaterMark: "ওয়াটারমার্ক সরান",
+          LocalString.pleaseWatchVideoWaterMart:
+              "ওয়াটারমার্ক সরাতে প্রো প্ল্যান নিন বা একটি সম্পূর্ণ ভিডিও বিজ্ঞাপন দেখুন।",
+          LocalString.cancel: "বাতিল",
+          LocalString.save: "সংরক্ষণ করুন",
+          LocalString.myProfile: "আমার প্রোফাইল",
+          LocalString.noSliderData: "স্লাইডার ডেটা নেই",
+          LocalString.deleteWarning:
+              "আপনি কি নিশ্চিত আপনি এই ফাইলটি মুছে ফেলতে চান?",
+          LocalString.addProfileWarning:
+              "পোস্টার দেখতে হলে অনুগ্রহ করে অন্তত একটি প্রোফাইল তৈরি করুন। এটি আপনার অভিজ্ঞতাকে আরও উন্নত করবে।",
+          LocalString.likes: "পছন্দসমূহ",
+          LocalString.searchCatagory: "বিভাগ অনুসন্ধান",
+          LocalString.emptySearch: "কোনো অনুসন্ধানের ফলাফল পাওয়া যায়নি।",
+          LocalString.removeFromList:
+              "আপনি কি নিশ্চিত আপনি এই পোস্টারটি প্রিয় তালিকা থেকে সরাতে চান?",
+          LocalString.emptyLikes:
+              "এখনো কোনো পছন্দকৃত পোস্টার নেই! প্রিয়তে যুক্ত করতে হার্ট আইকনে ক্লিক করুন।",
+          LocalString.swatchWarning:
+              "আমরা লক্ষ্য করেছি আপনার প্রোফাইল তালিকায় কেবল একটি প্রোফাইল রয়েছে, "
+                  "যদি আপনি প্রোফাইল পরিবর্তন করতে চান তবে আরো প্রোফাইল যোগ করুন।",
+          LocalString.failedToLoadAds: "বিজ্ঞাপন লোড করতে ব্যর্থ হয়েছে",
+          LocalString.loading: "লোড হচ্ছে",
+          LocalString.getPro: "প্রো পান"
+        },
+        'or_IN': {
+          LocalString.title: "ଫାସ୍ଟିଭା ପୋଷ୍ଟର ମେକର୍",
+          LocalString.home: "ମୁଖ୍ୟପୃଷ୍ଠା",
+          LocalString.picture: "ଛବି",
+          LocalString.profile: "ପ୍ରୋଫାଇଲ୍",
+          LocalString.editPoster: "ପୋଷ୍ଟର ସମ୍ପାଦନା",
+          LocalString.selectProfile: "ପ୍ରୋଫାଇଲ୍ ଚୟନ କରନ୍ତୁ",
+          LocalString.viewAll: "ସମସ୍ତ ଦେଖନ୍ତୁ",
+          LocalString.noInternet: "ଇଣ୍ଟରନେଟ୍ ନାହିଁ",
+          LocalString.noData: "ଡାଟା ମିଳିଲା ନାହିଁ",
+          LocalString.noProfile: "ପ୍ରୋଫାଇଲ୍ ନାହିଁ",
+          LocalString.noProfileDes:
+              "ଏଵେଳେ ପ୍ରୋଫାଇଲ୍ ଉପଲବ୍ଧ ନାହିଁ। ଭଲ ଅନୁଭବ ପାଇଁ ଦୟାକରି ଏକ ପ୍ରୋଫାଇଲ୍ ଯୋଗ କରନ୍ତୁ।",
+          LocalString.categoryPoster: "ଶ୍ରେଣୀ ପୋଷ୍ଟର",
+          LocalString.connectionIntro:
+              "ଆପଣ ଇଣ୍ଟରନେଟ୍ ସହିତ ସଂଯୁକ୍ତ ନୁହଁନ୍ତି। Wi-Fi ଚାଲୁ ଅଛି, ଫ୍ଲାଇଟ୍ ମୋଡ୍ ବନ୍ଦ ଅଛି ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।",
+          LocalString.noSelectedProfile:
+              "ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ ପ୍ରୋଫାଇଲ୍ ସହିତ ଆପ୍ ପ୍ରୟାଣ ଆରମ୍ଭ କରନ୍ତୁ! ତଳେ ଥିବା ବଟନ୍ ଉପରେ କ୍ଲିକ୍ କରି ଏକ ସରଳ ପ୍ରୋଫାଇଲ୍ ତିଆରି କରନ୍ତୁ।",
+          LocalString.profileDetails: "ପ୍ରୋଫାଇଲ୍ ବିବରଣୀ",
+          LocalString.addProfile: "ପ୍ରୋଫାଇଲ୍ ଯୋଗ କରନ୍ତୁ",
+          LocalString.updateProfile: "ପ୍ରୋଫାଇଲ୍ ଅଦ୍ୟତନ କରନ୍ତୁ",
+          LocalString.update: "ଅପଡେଟ୍",
+          LocalString.festivaCropper: "ଫେସ୍ଟିଭା କ୍ରପର୍",
+          LocalString.uploadLogo: "ଲୋଗୋ ଅପଲୋଡ୍ କରନ୍ତୁ",
+          LocalString.download: "ଡାଉନଲୋଡ୍",
+          LocalString.uploadFirmLogo: "ଫର୍ମ ଲୋଗୋ ଅପଲୋଡ୍ କରନ୍ତୁ",
+          LocalString.personal: "ବ୍ୟକ୍ତିଗତ",
+          LocalString.business: "ବ୍ୟବସାୟିକ",
+          LocalString.selectType: "ଦୟାକରି ପ୍ରୋଫାଇଲ୍ ପ୍ରକାର ବାଛନ୍ତୁ:",
+          LocalString.name: "ନାମ",
+          LocalString.number: "ନମ୍ବର",
+          LocalString.mobileNumber: "ମୋବାଇଲ୍ ନମ୍ବର",
+          LocalString.emailAddress: "ଇମେଲ୍ ଠିକଣା",
+          LocalString.email: "ଇମେଲ୍",
+          LocalString.address: "ଠିକଣା",
+          LocalString.continueButton: "ଜାରି ରଖନ୍ତୁ",
+          LocalString.warning: "ଚେତାବନୀ",
+          LocalString.pickLanguage: "ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ:",
+          LocalString.currentLanguage: "ସାମ୍ପ୍ରତିକ ଭାଷା",
+          LocalString.logoWarning: "ଦୟାକରି ଲୋଗୋ ଅପଲୋଡ୍ କରନ୍ତୁ",
+          LocalString.profileTypeWarning: "ଦୟାକରି ପ୍ରୋଫାଇଲ୍ ପ୍ରକାର ବାଛନ୍ତୁ",
+          LocalString.myProfileList: "ମୋ ପ୍ରୋଫାଇଲ୍ ତାଲିକା",
+          LocalString.languages: "ମୋର ଭାଷା",
+          LocalString.exitWarning:
+              "ଆପଣ ନିଶ୍ଚିତ ଭାବେ ଆପ୍ ବନ୍ଦ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
+          LocalString.profileWarning:
+              "ଆପଣ ଏହି ପ୍ରୋଫାଇଲ୍ ବିଲୋପ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
+          LocalString.exit: "ବାହାରିଯାଆନ୍ତୁ",
+          LocalString.yes: "ହଁ",
+          LocalString.no: "ନା",
+          LocalString.somethingWentWrong: "କିଛି ଭୁଲ ଘଟିଛି",
+          LocalString.logo: "ଲୋଗୋ",
+          LocalString.color: "ରଙ୍ଗ",
+          LocalString.opacity: "ଅପାସିଟି",
+          LocalString.scale: "ପ୍ରମାଣ",
+          LocalString.frame: "ଫ୍ରେମ୍",
+          LocalString.pickLogoColor: "ଲୋଗୋ ରଙ୍ଗ ବାଛନ୍ତୁ",
+          LocalString.pickFrameColor: "ଫ୍ରେମ୍ ରଙ୍ଗ ବାଛନ୍ତୁ",
+          LocalString.radius: "ତ୍ରିଜ୍ୟା",
+          LocalString.shape: "ଆକୃତି",
+          LocalString.fonts: "ଅକ୍ଷରଶୈଳୀ",
+          LocalString.frameMargin: "ଫ୍ରେମ୍ ମାର୍ଜିନ୍",
+          LocalString.logoMargin: "ଲୋଗୋ ମାର୍ଜିନ୍",
+          LocalString.margin: "ମାର୍ଜିନ୍",
+          LocalString.border: "ବାହାର କାଠା",
+          LocalString.posterBorder: "ପୋଷ୍ଟର ବାହାର କାଠା",
+          LocalString.logoRadius: "ଲୋଗୋ ତ୍ରିଜ୍ୟା",
+          LocalString.frameRadius: "ଫ୍ରେମ୍ ତ୍ରିଜ୍ୟା",
+          LocalString.logoBorder: "ଲୋଗୋ ବାହାର କାଠା",
+          LocalString.strokeWidth: "ଷ୍ଟ୍ରୋକ୍ ଚଉଡ଼",
+          LocalString.borderOpacity: "ବାହାର କାଠା ଅପାସିଟି",
+          LocalString.logoColor: "ଲୋଗୋ ରଙ୍ଗ",
+          LocalString.frameColor: "ଫ୍ରେମ୍ ରଙ୍ଗ",
+          LocalString.nameColor: "ନାମ ରଙ୍ଗ",
+          LocalString.borderColor: "ବାହାର କାଠା ରଙ୍ଗ",
+          LocalString.topLeft: "ଉପର ବାମ",
+          LocalString.topRight: "ଉପର ଡାହାଣ",
+          LocalString.bottomLeft: "ତଳ ବାମ",
+          LocalString.bottomRight: "ତଳ ଡାହାଣ",
+          LocalString.nameBoxRadius: "ନାମ ବାକ୍ସ ତ୍ରିଜ୍ୟା",
+          LocalString.topMargin: "ଉପର ମାର୍ଜିନ୍",
+          LocalString.bottomMargin: "ତଳ ମାର୍ଜିନ୍",
+          LocalString.leftMargin: "ବାମ ମାର୍ଜିନ୍",
+          LocalString.rightMargin: "ଡାହାଣ ମାର୍ଜିନ୍",
+          LocalString.tools: "ଉପକରଣ",
+          LocalString.height: "ଉଚ୍ଚତା",
+          LocalString.size: "ଆକାର",
+          LocalString.latterSpacing: "ଅନ୍ତର",
+          LocalString.nameFont: "ନାମ ଅକ୍ଷରଶୈଳୀ",
+          LocalString.changeProfile: "ପ୍ରୋଫାଇଲ୍ ବଦଳାନ୍ତୁ",
+          LocalString.numberColor: "ନମ୍ବର ରଙ୍ଗ",
+          LocalString.numberFont: "ନମ୍ବର ଅକ୍ଷରଶୈଳୀ",
+          LocalString.emailColor: "ଇମେଲ୍ ରଙ୍ଗ",
+          LocalString.emailFont: "ଇମେଲ୍ ଅକ୍ଷରଶୈଳୀ",
+          LocalString.addressColor: "ଠିକଣା ରଙ୍ଗ",
+          LocalString.addressFont: "ଠିକଣା ଅକ୍ଷରଶୈଳୀ",
+          LocalString.preview: "ପ୍ରିଭ୍ୟୁ",
+          LocalString.empty: "ଖାଲି",
+          LocalString.privacy: "ଗୋପନୀୟତା",
+          LocalString.termsAndConditions: "ସର୍ତ୍ତାବଳୀ",
+          LocalString.rateMyApp: "ଆପ୍ ମୂଲ୍ୟାଙ୍କନ କରନ୍ତୁ",
+          LocalString.share: "ସେୟାର୍ କରନ୍ତୁ",
+          LocalString.help: "ସାହାଯ୍ୟ",
+          LocalString.vertical: "ଉଲ୍ଲମ୍ବ",
+          LocalString.horizontal: "ଆନୁଲମ୍ବ",
+          LocalString.contentAlign: "ସାମଗ୍ରୀ ସମନ୍ବୟ",
+          LocalString.downloadSuccessful: "ଛବି ସଫଳତାର ସହିତ ଡାଉନଲୋଡ୍ ହେଲା",
+          LocalString.emptyDownLoad:
+              "ଡାଉନଲୋଡ୍ ଛବି ମିଳିଲା ନାହିଁ, ଦୟାକରି ଆମ ନୂଆ ସଂଗ୍ରହ ସହିତ ଅଧିକ ଅନୁସନ୍ଧାନ କରନ୍ତୁ।",
+          LocalString.emptyImages:
+              "କୌଣସି ଛବି ମିଳିଲା ନାହିଁ, ଦୟାକରି ଫିଡ୍ସ ରିଫ୍ରେଶ୍ କରନ୍ତୁ କିମ୍ବା ଆପ୍ ପୁନଃ ଖୋଲନ୍ତୁ।",
+          LocalString.itsPremium: "ଏହା ପ୍ରିମିୟମ୍",
+          LocalString.pleaseWatchVideo:
+              "ପୋଷ୍ଟର ଅନଲକ୍ କରିବା ପାଇଁ ପ୍ରୋ ପ୍ଲାନ୍ ନେଉନ୍ତୁ କିମ୍ବା ଏକ ପୂର୍ଣ୍ଣ ଭିଡିଓ ଦେଖନ୍ତୁ",
+          LocalString.watch: "ଦେଖନ୍ତୁ",
+          LocalString.removeWaterMark: "ୱାଟରମାର୍କ ହଟାନ୍ତୁ",
+          LocalString.pleaseWatchVideoWaterMart:
+              "ୱାଟରମାର୍କ ହଟାଇବା ପାଇଁ ପ୍ରୋ ପ୍ଲାନ୍ ନିଅନ୍ତୁ କିମ୍ବା ଏକ ପୂର୍ଣ୍ଣ ଭିଡିଓ ଦେଖନ୍ତୁ।",
+          LocalString.cancel: "ବାତିଲ୍",
+          LocalString.save: "ସେଭ୍ କରନ୍ତୁ",
+          LocalString.myProfile: "ମୋ ପ୍ରୋଫାଇଲ୍",
+          LocalString.noSliderData: "କୌଣସି ସ୍ଲାଇଡର୍ ଡାଟା ନାହିଁ",
+          LocalString.deleteWarning:
+              "ଆପଣ ନିଶ୍ଚିତ ଏହି ଫାଇଲ୍ ବିଲୋପ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
+          LocalString.addProfileWarning:
+              "ପୋଷ୍ଟର ଅଭିଗମ ପାଇଁ, ଦୟାକରି ଅନ୍ୟତମ ଏକ ପ୍ରୋଫାଇଲ୍ ସୃଷ୍ଟି କରନ୍ତୁ। ଏହା ଆପଣଙ୍କ ପାଇଁ ସ୍ମୂଥ୍ ଅନୁଭବ ନିଶ୍ଚିତ କରିବ।",
+          LocalString.likes: "ପସନ୍ଦ",
+          LocalString.searchCatagory: "ଶ୍ରେଣୀ ଖୋଜନ୍ତୁ",
+          LocalString.emptySearch: "କୌଣସି ଖୋଜ ବିଲୋମ ମିଳିଲା ନାହିଁ।",
+          LocalString.removeFromList:
+              "ଆପଣ ନିଶ୍ଚିତ ଏହି ପୋଷ୍ଟରକୁ ପସନ୍ଦ ତାଲିକାରୁ ବାହାର କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
+          LocalString.emptyLikes:
+              "ଏଵେଳେ କୌଣସି ପସନ୍ଦ ପୋଷ୍ଟର ନାହିଁ! ହୃଦୟ ଆଇକନ୍ ଉପରେ କ୍ଲିକ୍ କରି ପସନ୍ଦ ତାଲିକାରେ ଯୋଗ କରନ୍ତୁ।",
+          LocalString.swatchWarning:
+              "ଆମେ ଦେଖୁଛୁ ଯେ ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ୍ ତାଲିକାରେ କେବଳ ଗୋଟିଏ ପ୍ରୋଫାଇଲ୍ ଅଛି। ପ୍ରୋଫାଇଲ୍ ବଦଳାଇବାକୁ ଆହୁରି ପ୍ରୋଫାଇଲ୍ ଯୋଗ କରିବା ଆବଶ୍ୟକ।",
+          LocalString.failedToLoadAds: "ବିଜ୍ଞାପନ ଲୋଡ୍ ହେଉ ଅସଫଳ",
+          LocalString.loading: "ଲୋଡିଂ",
+          LocalString.getPro: "ପ୍ରୋ ପ୍ଲାନ୍ ନିଅନ୍ତୁ"
+        },
+        'mr_IN': {
+          LocalString.title: "फास्टिवा पोस्टर मेकर",
+          LocalString.home: "मुख्यपृष्ठ",
+          LocalString.picture: "चित्र",
+          LocalString.profile: "प्रोफाईल",
+          LocalString.editPoster: "पोस्टर संपादित करा",
+          LocalString.selectProfile: "प्रोफाईल निवडा",
+          LocalString.viewAll: "सर्व पहा",
+          LocalString.noInternet: "इंटरनेट नाही",
+          LocalString.noData: "डेटा उपलब्ध नाही",
+          LocalString.noProfile: "प्रोफाईल नाही",
+          LocalString.noProfileDes:
+              "सध्या कोणतेही प्रोफाईल उपलब्ध नाही. कृपया उत्तम अनुभवासाठी आपले प्रोफाईल जोडा.",
+          LocalString.categoryPoster: "श्रेणी पोस्टर",
+          LocalString.connectionIntro:
+              "आपण इंटरनेटशी कनेक्ट नाही आहात. कृपया Wi-Fi चालू आहे का ते तपासा, फ्लाइट मोड बंद आहे का ते पाहा आणि पुन्हा प्रयत्न करा.",
+          LocalString.noSelectedProfile:
+              "अॅपचा प्रवास आपल्या खास प्रोफाईलसह सुरू करा! प्रोफाईल तयार करण्यासाठी फक्त खालील बटणावर टॅप करा. हे अतिशय सोपे आहे – फक्त दोन क्लिक!",
+          LocalString.profileDetails: "प्रोफाईल तपशील",
+          LocalString.addProfile: "प्रोफाईल जोडा",
+          LocalString.updateProfile: "प्रोफाईल अपडेट करा",
+          LocalString.update: "अपडेट",
+          LocalString.festivaCropper: "फेस्टिवा क्रॉपर",
+          LocalString.uploadLogo: "लोगो अपलोड करा",
+          LocalString.download: "डाउनलोड",
+          LocalString.uploadFirmLogo: "फर्म लोगो अपलोड करा",
+          LocalString.personal: "वैयक्तिक",
+          LocalString.business: "व्यवसाय",
+          LocalString.selectType: "कृपया प्रोफाईल प्रकार निवडा:",
+          LocalString.name: "नाव",
+          LocalString.number: "क्रमांक",
+          LocalString.mobileNumber: "मोबाईल क्रमांक",
+          LocalString.emailAddress: "ईमेल पत्ता",
+          LocalString.email: "ईमेल",
+          LocalString.address: "पत्ता",
+          LocalString.continueButton: "पुढे जा",
+          LocalString.warning: "इशारा",
+          LocalString.pickLanguage: "आपली भाषा निवडा:",
+          LocalString.currentLanguage: "सद्य भाषा",
+          LocalString.logoWarning: "कृपया लोगो अपलोड करा",
+          LocalString.profileTypeWarning: "कृपया प्रोफाईल प्रकार निवडा",
+          LocalString.myProfileList: "माझी प्रोफाईल यादी",
+          LocalString.languages: "माझी भाषा",
+          LocalString.exitWarning: "आपण अॅप बंद करू इच्छिता?",
+          LocalString.profileWarning: "हे प्रोफाईल हटवू इच्छिता का?",
+          LocalString.exit: "बाहेर पडा",
+          LocalString.yes: "होय",
+          LocalString.no: "नाही",
+          LocalString.somethingWentWrong: "काहीतरी चुकले",
+          LocalString.logo: "लोगो",
+          LocalString.color: "रंग",
+          LocalString.opacity: "अपारदर्शकता",
+          LocalString.scale: "स्केल",
+          LocalString.frame: "फ्रेम",
+          LocalString.pickLogoColor: "लोगोचा रंग निवडा",
+          LocalString.pickFrameColor: "फ्रेमचा रंग निवडा",
+          LocalString.radius: "त्रिज्या",
+          LocalString.shape: "आकार",
+          LocalString.fonts: "फॉन्ट",
+          LocalString.frameMargin: "फ्रेम मार्जिन",
+          LocalString.logoMargin: "लोगो मार्जिन",
+          LocalString.margin: "मार्जिन",
+          LocalString.border: "किनार",
+          LocalString.posterBorder: "पोस्टर किनार",
+          LocalString.logoRadius: "लोगो त्रिज्या",
+          LocalString.frameRadius: "फ्रेम त्रिज्या",
+          LocalString.logoBorder: "लोगो किनार",
+          LocalString.strokeWidth: "रेषेची जाडी",
+          LocalString.borderOpacity: "किनार अपारदर्शकता",
+          LocalString.logoColor: "लोगोचा रंग",
+          LocalString.frameColor: "फ्रेमचा रंग",
+          LocalString.nameColor: "नावाचा रंग",
+          LocalString.borderColor: "किनार रंग",
+          LocalString.topLeft: "वर डावीकडे",
+          LocalString.topRight: "वर उजवीकडे",
+          LocalString.bottomLeft: "खाली डावीकडे",
+          LocalString.bottomRight: "खाली उजवीकडे",
+          LocalString.nameBoxRadius: "नाव बॉक्स त्रिज्या",
+          LocalString.topMargin: "वरचा मार्जिन",
+          LocalString.bottomMargin: "खालचा मार्जिन",
+          LocalString.leftMargin: "डावा मार्जिन",
+          LocalString.rightMargin: "उजवा मार्जिन",
+          LocalString.tools: "साधने",
+          LocalString.height: "उंची",
+          LocalString.size: "आकार",
+          LocalString.latterSpacing: "अंतर",
+          LocalString.nameFont: "नाव फॉन्ट",
+          LocalString.changeProfile: "प्रोफाईल बदला",
+          LocalString.numberColor: "क्रमांकाचा रंग",
+          LocalString.numberFont: "क्रमांकाचा फॉन्ट",
+          LocalString.emailColor: "ईमेलचा रंग",
+          LocalString.emailFont: "ईमेलचा फॉन्ट",
+          LocalString.addressColor: "पत्त्याचा रंग",
+          LocalString.addressFont: "पत्त्याचा फॉन्ट",
+          LocalString.preview: "पूर्वावलोकन",
+          LocalString.empty: "रिक्त",
+          LocalString.privacy: "गोपनीयता",
+          LocalString.termsAndConditions: "अटी व शर्ती",
+          LocalString.rateMyApp: "अॅप रेट करा",
+          LocalString.share: "शेअर करा",
+          LocalString.help: "मदत",
+          LocalString.vertical: "उभा",
+          LocalString.horizontal: "आडवा",
+          LocalString.contentAlign: "सामग्री संरेखन",
+          LocalString.downloadSuccessful: "प्रतिमा यशस्वीरित्या डाउनलोड झाली",
+          LocalString.emptyDownLoad:
+              "कोणतीही प्रतिमा डाउनलोड नाही. कृपया नवीन संग्रह शोधा.",
+          LocalString.emptyImages:
+              "कोणतीही प्रतिमा नाही. कृपया फीड्स रिफ्रेश करा किंवा अॅप पुन्हा उघडा.",
+          LocalString.itsPremium: "हे प्रीमियम आहे",
+          LocalString.pleaseWatchVideo:
+              "प्रो प्लॅन मिळवा किंवा पूर्ण जाहिरात पाहून हे पोस्टर अनलॉक करा",
+          LocalString.watch: "पहा",
+          LocalString.removeWaterMark: "वॉटरमार्क काढा",
+          LocalString.pleaseWatchVideoWaterMart:
+              "प्रो प्लॅन घ्या किंवा वॉटरमार्क काढण्यासाठी पूर्ण जाहिरात पाहा.",
+          LocalString.cancel: "रद्द करा",
+          LocalString.save: "जतन करा",
+          LocalString.myProfile: "माझे प्रोफाईल",
+          LocalString.noSliderData: "कोणताही स्लायडर डेटा नाही",
+          LocalString.deleteWarning: "आपण ही फाईल हटवू इच्छिता?",
+          LocalString.addProfileWarning:
+              "पोस्टरमध्ये प्रवेश करण्यासाठी कृपया एक प्रोफाईल तयार करा. हे आपला अनुभव सुलभ करेल.",
+          LocalString.likes: "पसंती",
+          LocalString.searchCatagory: "श्रेणी शोधा",
+          LocalString.emptySearch: "कोणतेही शोध परिणाम सापडले नाहीत.",
+          LocalString.removeFromList:
+              "आपण हे पोस्टर आवडत्या यादीतून काढू इच्छिता का?",
+          LocalString.emptyLikes:
+              "सध्या कोणतीही पसंती दिलेली पोस्टर नाहीत! ते आवडत्या यादीत जोडण्यासाठी हृदय चिन्हावर टॅप करा.",
+          LocalString.swatchWarning:
+              "आपल्या यादीत सध्या फक्त एकच प्रोफाईल आहे. दुसरे प्रोफाईल बदलण्यासाठी, कृपया अधिक प्रोफाईल जोडा.",
+          LocalString.failedToLoadAds: "जाहिराती लोड करण्यात अयशस्वी",
+          LocalString.loading: "लोड करत आहे",
+          LocalString.getPro: "प्रो घ्या"
+        },
+        'te_IN': {
+          LocalString.title: "ఫాస్టివా పోస్టర్ మేకర్",
+          LocalString.home: "హోమ్",
+          LocalString.picture: "చిత్రం",
+          LocalString.profile: "ప్రొఫైల్",
+          LocalString.editPoster: "పోస్టర్ సవరించు",
+          LocalString.selectProfile: "ప్రొఫైల్ ఎంచుకోండి",
+          LocalString.viewAll: "అన్నీ చూడండి",
+          LocalString.noInternet: "ఇంటర్నెట్ లేదు",
+          LocalString.noData: "డేటా లేదు",
+          LocalString.noProfile: "ప్రొఫైల్ లేదు",
+          LocalString.noProfileDes:
+              "ప్రస్తుతం ప్రొఫైల్ అందుబాటులో లేదు. మెరుగైన అనుభవం కోసం దయచేసి మీ ప్రొఫైల్‌ను జోడించండి.",
+          LocalString.categoryPoster: "వర్గ పోస్టర్",
+          LocalString.connectionIntro:
+              "మీరు ఇంటర్నెట్‌కు కనెక్ట్ కాలేదు. Wi-Fi ఆన్‌లో ఉందో, ఫ్లైట్ మోడ్ ఆఫ్‌లో ఉందో తనిఖీ చేసి మళ్లీ ప్రయత్నించండి.",
+          LocalString.noSelectedProfile:
+              "యాప్ ప్రయాణాన్ని మీ ప్రత్యేక ప్రొఫైల్‌తో ప్రారంభించండి! దీన్ని సృష్టించడానికి, కింద ఉన్న బటన్‌ను నొక్కండి. ఇది చాలా సులభం, కేవలం రెండు క్లిక్స్‌ మాత్రమే!",
+          LocalString.profileDetails: "ప్రొఫైల్ వివరాలు",
+          LocalString.addProfile: "ప్రొఫైల్ జోడించండి",
+          LocalString.updateProfile: "ప్రొఫైల్ నవీకరించండి",
+          LocalString.update: "నవీకరించండి",
+          LocalString.festivaCropper: 'ఫాస్టివా క్రాపర్',
+          LocalString.uploadLogo: "లోగో అప్‌లోడ్ చేయండి",
+          LocalString.download: "డౌన్‌లోడ్",
+          LocalString.uploadFirmLogo: "కంపెనీ లోగో అప్‌లోడ్ చేయండి",
+          LocalString.personal: "వ్యక్తిగత",
+          LocalString.business: "వ్యాపారం",
+          LocalString.selectType: "దయచేసి ప్రొఫైల్ రకాన్ని ఎంచుకోండి:",
+          LocalString.name: "పేరు",
+          LocalString.number: "నంబర్",
+          LocalString.mobileNumber: "మొబైల్ నంబర్",
+          LocalString.emailAddress: "ఇమెయిల్ చిరునామా",
+          LocalString.email: "ఇమెయిల్",
+          LocalString.address: "చిరునామా",
+          LocalString.continueButton: "కొనసాగించు",
+          LocalString.warning: "హెచ్చరిక",
+          LocalString.pickLanguage: "మీ భాషను ఎంచుకోండి:",
+          LocalString.currentLanguage: "ప్రస్తుత భాష",
+          LocalString.logoWarning: "దయచేసి లోగోను అప్‌లోడ్ చేయండి",
+          LocalString.profileTypeWarning: "దయచేసి ప్రొఫైల్ రకం ఎంచుకోండి",
+          LocalString.myProfileList: "నా ప్రొఫైల్ జాబితా",
+          LocalString.languages: "నా భాష",
+          LocalString.exitWarning: "యాప్‌ను మూసివేయాలా?",
+          LocalString.profileWarning: "ఈ ప్రొఫైల్‌ను తొలగించాలా?",
+          LocalString.exit: "నిష్క్రమించు",
+          LocalString.yes: "అవును",
+          LocalString.no: "కాదు",
+          LocalString.somethingWentWrong: "ఏదో తప్పు జరిగింది",
+          LocalString.logo: "లోగో",
+          LocalString.color: "రంగు",
+          LocalString.opacity: "అపారదర్శకత",
+          LocalString.scale: "ప్రమాణం",
+          LocalString.frame: "ఫ్రేమ్",
+          LocalString.pickLogoColor: "లోగో రంగు ఎంచుకోండి",
+          LocalString.pickFrameColor: "ఫ్రేమ్ రంగు ఎంచుకోండి",
+          LocalString.radius: "ఆరేఖ",
+          LocalString.shape: "ఆకారం",
+          LocalString.fonts: "ఫాంట్లు",
+          LocalString.frameMargin: "ఫ్రేమ్ మార్జిన్",
+          LocalString.logoMargin: "లోగో మార్జిన్",
+          LocalString.margin: "మార్జిన్",
+          LocalString.border: "గడుగు",
+          LocalString.posterBorder: "పోస్టర్ గడుగు",
+          LocalString.logoRadius: "లోగో రేడియస్",
+          LocalString.frameRadius: "ఫ్రేమ్ రేడియస్",
+          LocalString.logoBorder: "లోగో గడుగు",
+          LocalString.strokeWidth: "స్ట్రోక్ వెడల్పు",
+          LocalString.borderOpacity: "గడుగు అపారదర్శకత",
+          LocalString.logoColor: "లోగో రంగు",
+          LocalString.frameColor: "ఫ్రేమ్ రంగు",
+          LocalString.nameColor: "పేరు రంగు",
+          LocalString.borderColor: "గడుగు రంగు",
+          LocalString.topLeft: "పైన ఎడమ",
+          LocalString.topRight: "పైన కుడి",
+          LocalString.bottomLeft: "క్రింద ఎడమ",
+          LocalString.bottomRight: "క్రింద కుడి",
+          LocalString.nameBoxRadius: "పేరు బాక్స్ రేడియస్",
+          LocalString.topMargin: "పైన మార్జిన్",
+          LocalString.bottomMargin: "క్రింద మార్జిన్",
+          LocalString.leftMargin: "ఎడమ మార్జిన్",
+          LocalString.rightMargin: "కుడి మార్జిన్",
+          LocalString.tools: "పరికరాలు",
+          LocalString.height: "ఎత్తు",
+          LocalString.size: "పరిమాణం",
+          LocalString.latterSpacing: "అక్షరాల మధ్య ఖాళీ",
+          LocalString.nameFont: "పేరు ఫాంట్",
+          LocalString.changeProfile: "ప్రొఫైల్ మార్చు",
+          LocalString.numberColor: "నంబర్ రంగు",
+          LocalString.numberFont: "నంబర్ ఫాంట్",
+          LocalString.emailColor: "ఇమెయిల్ రంగు",
+          LocalString.emailFont: "ఇమెయిల్ ఫాంట్",
+          LocalString.addressColor: "చిరునామా రంగు",
+          LocalString.addressFont: "చిరునామా ఫాంట్",
+          LocalString.preview: "ప్రివ్యూవ్",
+          LocalString.empty: "ఖాళీ",
+          LocalString.privacy: "గోప్యతా విధానం",
+          LocalString.termsAndConditions: "నియమాలు మరియు షరతులు",
+          LocalString.rateMyApp: "యాప్‌కు రేటింగ్ ఇవ్వండి",
+          LocalString.share: "షేర్ చేయండి",
+          LocalString.help: "సహాయం",
+          LocalString.vertical: "వర్తికల్గా",
+          LocalString.horizontal: "ఆడంబరంగా",
+          LocalString.contentAlign: "కంటెంట్ అలైన్‌మెంట్",
+          LocalString.downloadSuccessful: "చిత్రం విజయవంతంగా డౌన్‌లోడ్ అయింది",
+          LocalString.emptyDownLoad:
+              "డౌన్‌లోడ్ చేసిన చిత్రం లేదు, దయచేసి మా తాజా సేకరణలను అన్వేషించండి.",
+          LocalString.emptyImages:
+              "చిత్రాలు లేవు, దయచేసి ఫీడ్స్‌ని రిఫ్రెష్ చేయండి లేదా యాప్‌ను మళ్లీ ఓపెన్ చేయండి.",
+          LocalString.itsPremium: "ఇది ప్రీమియం",
+          LocalString.pleaseWatchVideo:
+              "ఈ పోస్టర్‌ను అన్‌లాక్ చేయడానికి ప్రో ప్లాన్ తీసుకోండి లేదా పూర్తి వీడియో ప్రకటనను చూడండి",
+          LocalString.watch: "చూడండి",
+          LocalString.removeWaterMark: "వాటర్‌మార్క్ తొలగించండి",
+          LocalString.pleaseWatchVideoWaterMart:
+              "వాటర్‌మార్క్‌ను తొలగించడానికి ప్రో ప్లాన్ పొందండి లేదా పూర్తి వీడియో ప్రకటనను చూడండి.",
+          LocalString.cancel: "రద్దు",
+          LocalString.save: "సేవ్",
+          LocalString.myProfile: "నా ప్రొఫైల్",
+          LocalString.noSliderData: "స్లైడర్ డేటా లేదు",
+          LocalString.deleteWarning: "మీరు ఖచ్చితంగా ఈ ఫైల్‌ను తొలగించాలా?",
+          LocalString.addProfileWarning:
+              "పోస్టర్‌ను యాక్సెస్ చేయడానికి, స్థిరమైన ఉపయోగానికి కనీసం ఒక ప్రొఫైల్‌ను సృష్టించండి. ఇది మీకు మెరుగైన అనుభవాన్ని అందిస్తుంది.",
+          LocalString.likes: "లైక్స్",
+          LocalString.searchCatagory: "వర్గం వెతకండి",
+          LocalString.emptySearch: "వెతకబడిన ఫలితాలు లేవు.",
+          LocalString.removeFromList:
+              "ఈ పోస్టర్‌ను ఇష్టమైన జాబితా నుండి తొలగించాలా?",
+          LocalString.emptyLikes:
+              "ప్రస్తుతం ఇష్టమైన పోస్టర్లు లేవు! హార్ట్ ఐకాన్‌ను నొక్కి వాటిని ఇష్టాలకు జోడించండి.",
+          LocalString.swatchWarning:
+              "మీ ప్రొఫైల్ జాబితాలో కేవలం ఒక ప్రొఫైల్ మాత్రమే ఉంది. మీరు ప్రొఫైల్ మార్చాలంటే, దయచేసి మరిన్ని ప్రొఫైళ్లను జోడించండి.",
+          LocalString.failedToLoadAds: "ప్రకటనలను లోడ్ చేయడం విఫలమైంది",
+          LocalString.loading: "లోడవుతుంది",
+          LocalString.getPro: "ప్రో పొందండి"
+        },
+        'ta_IN': {
+          LocalString.title: "ஃபாஸ்டிவா போஸ்டர் மேக்கர்",
+          LocalString.home: "முகப்பு",
+          LocalString.picture: "படம்",
+          LocalString.profile: "சுயவிவரம்",
+          LocalString.editPoster: "போஸ்டரைத் திருத்து",
+          LocalString.selectProfile: "சுயவிவரம் தேர்வு செய்க",
+          LocalString.viewAll: "அனைத்தையும் காண்க",
+          LocalString.noInternet: "இணையம் இல்லை",
+          LocalString.noData: "தரவு இல்லை",
+          LocalString.noProfile: "சுயவிவரம் இல்லை",
+          LocalString.noProfileDes:
+              "தற்போது சுயவிவரங்கள் இல்லை. சிறந்த அனுபவத்திற்கு உங்கள் சுயவிவரத்தைச் சேர்க்கவும்.",
+          LocalString.categoryPoster: "வகை போஸ்டர்",
+          LocalString.connectionIntro:
+              "நீங்கள் இணையத்துடன் இணைக்கப்படவில்லை. Wi-Fi இயக்கப்பட்டுள்ளது, விமான பயணமுறை அணைக்கப்பட்டுள்ளது என்பதை உறுதிப்படுத்தி மீண்டும் முயற்சிக்கவும்.",
+          LocalString.noSelectedProfile:
+              "அப்லிக்கேஷனின் பயணத்தை உங்கள் தனிப்பட்ட சுயவிவரத்துடன் தொடங்குங்கள்! கீழே உள்ள பொத்தானைத் தட்டுங்கள், இரு கிளிக்குகளில் உருவாக்கலாம்!",
+          LocalString.profileDetails: "சுயவிவர விவரங்கள்",
+          LocalString.addProfile: "சுயவிவரத்தை சேர்க்கவும்",
+          LocalString.updateProfile: "சுயவிவரத்தை புதுப்பிக்கவும்",
+          LocalString.update: "புதுப்பி",
+          LocalString.festivaCropper: 'ஃபாஸ்டிவா க்ராப்பர்',
+          LocalString.uploadLogo: "லோகோவை பதிவேற்றவும்",
+          LocalString.download: "பதிவிறக்கவும்",
+          LocalString.uploadFirmLogo: "நிறுவன லோகோ பதிவேற்று",
+          LocalString.personal: "தனிப்பட்ட",
+          LocalString.business: "வணிகம்",
+          LocalString.selectType:
+              "தயவுசெய்து சுயவிவர வகையைத் தேர்ந்தெடுக்கவும்:",
+          LocalString.name: "பெயர்",
+          LocalString.number: "எண்",
+          LocalString.mobileNumber: "மொபைல் எண்",
+          LocalString.emailAddress: "மின்னஞ்சல் முகவரி",
+          LocalString.email: "மின்னஞ்சல்",
+          LocalString.address: "முகவரி",
+          LocalString.continueButton: "தொடரவும்",
+          LocalString.warning: "எச்சரிக்கை",
+          LocalString.pickLanguage: "உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்:",
+          LocalString.currentLanguage: "தற்போதைய மொழி",
+          LocalString.logoWarning: "தயவுசெய்து லோகோவை பதிவேற்றவும்",
+          LocalString.profileTypeWarning:
+              "தயவுசெய்து சுயவிவர வகையைத் தேர்ந்தெடுக்கவும்",
+          LocalString.myProfileList: "என் சுயவிவர பட்டியல்",
+          LocalString.languages: "என் மொழி",
+          LocalString.exitWarning: "நீங்கள் செயலியை மூட விரும்புகிறீர்களா?",
+          LocalString.profileWarning:
+              "இந்த சுயவிவரத்தை நீக்க விரும்புகிறீர்களா?",
+          LocalString.exit: "வெளியேறு",
+          LocalString.yes: "ஆம்",
+          LocalString.no: "இல்லை",
+          LocalString.somethingWentWrong: "ஏதோ தவறு ஏற்பட்டது",
+          LocalString.logo: "லோகோ",
+          LocalString.color: "நிறம்",
+          LocalString.opacity: "ஒளிர்வுத்தன்மை",
+          LocalString.scale: "அளவு",
+          LocalString.frame: "சட்டகம்",
+          LocalString.pickLogoColor: "லோகோவிற்கான நிறத்தை தேர்வு செய்க",
+          LocalString.pickFrameColor: "சட்டகத்திற்கான நிறத்தை தேர்வு செய்க",
+          LocalString.radius: "வட்டஅளவு",
+          LocalString.shape: "வடிவம்",
+          LocalString.fonts: "எழுத்துருக்கள்",
+          LocalString.frameMargin: "சட்டக ஓரமான தொலைவு",
+          LocalString.logoMargin: "லோகோ ஓரமான தொலைவு",
+          LocalString.margin: "ஓரமான தொலைவு",
+          LocalString.border: "எல்லை",
+          LocalString.posterBorder: "போஸ்டர் எல்லை",
+          LocalString.logoRadius: "லோகோ வட்டஅளவு",
+          LocalString.frameRadius: "சட்டக வட்டஅளவு",
+          LocalString.logoBorder: "லோகோ எல்லை",
+          LocalString.strokeWidth: "வட்ட அளவு",
+          LocalString.borderOpacity: "எல்லை ஒளிர்வு",
+          LocalString.logoColor: "லோகோ நிறம்",
+          LocalString.frameColor: "சட்டக நிறம்",
+          LocalString.nameColor: "பெயர் நிறம்",
+          LocalString.borderColor: "எல்லை நிறம்",
+          LocalString.topLeft: "மேல் இடது",
+          LocalString.topRight: "மேல் வலம்",
+          LocalString.bottomLeft: "கீழ் இடது",
+          LocalString.bottomRight: "கீழ் வலம்",
+          LocalString.nameBoxRadius: "பெயர் பெட்டி வட்டஅளவு",
+          LocalString.topMargin: "மேல் ஓரம்",
+          LocalString.bottomMargin: "கீழ் ஓரம்",
+          LocalString.leftMargin: "இடது ஓரம்",
+          LocalString.rightMargin: "வலது ஓரம்",
+          LocalString.tools: "கருவிகள்",
+          LocalString.height: "உயரம்",
+          LocalString.size: "அளவு",
+          LocalString.latterSpacing: "எழுத்து இடைவெளி",
+          LocalString.nameFont: "பெயர் எழுத்துரு",
+          LocalString.changeProfile: "சுயவிவரத்தை மாற்றவும்",
+          LocalString.numberColor: "எண் நிறம்",
+          LocalString.numberFont: "எண் எழுத்துரு",
+          LocalString.emailColor: "மின்னஞ்சல் நிறம்",
+          LocalString.emailFont: "மின்னஞ்சல் எழுத்துரு",
+          LocalString.addressColor: "முகவரி நிறம்",
+          LocalString.addressFont: "முகவரி எழுத்துரு",
+          LocalString.preview: "முன்னோட்டம்",
+          LocalString.empty: "காலியாக உள்ளது",
+          LocalString.privacy: "தனியுரிமை",
+          LocalString.termsAndConditions: "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+          LocalString.rateMyApp: "யாப்பை மதிப்பீடு செய்க",
+          LocalString.share: "பகிரவும்",
+          LocalString.help: "உதவி",
+          LocalString.vertical: "செங்குத்தாக",
+          LocalString.horizontal: "கிடைமட்டமாக",
+          LocalString.contentAlign: "உள்ளடக்கத்தை சீரமை",
+          LocalString.downloadSuccessful: "படம் வெற்றிகரமாக பதிவிறக்கப்பட்டது",
+          LocalString.emptyDownLoad:
+              "பதிவிறக்கம் செய்யப்பட்ட படம் எதுவும் இல்லை, எங்கள் புதிய சேமிப்புகளை ஆய்வு செய்யவும்.",
+          LocalString.emptyImages:
+              "படங்கள் எதுவும் இல்லை, தயவுசெய்து பீட்களை புதுப்பிக்கவும் அல்லது செயலியை மீண்டும் திறக்கவும்.",
+          LocalString.itsPremium: "இது ஒரு பிரீமியம்",
+          LocalString.pleaseWatchVideo:
+              "Pro திட்டத்தை பெறவும் அல்லது இந்த போஸ்டரைத் திறக்க முழு வீடியோ விளம்பரத்தைப் பார்க்கவும்",
+          LocalString.watch: "பார்க்கவும்",
+          LocalString.removeWaterMark: "வாட்டர்மார்க் நீக்கவும்",
+          LocalString.pleaseWatchVideoWaterMart:
+              "வாட்டர்மார்க்கை அகற்ற, Pro திட்டத்தை பெறவும் அல்லது முழு வீடியோ விளம்பரத்தைப் பார்க்கவும்.",
+          LocalString.cancel: "ரத்துசெய்",
+          LocalString.save: "சேமிக்கவும்",
+          LocalString.myProfile: "என் சுயவிவரம்",
+          LocalString.noSliderData: "ஸ்லைடர் தரவு இல்லை",
+          LocalString.deleteWarning: "இந்த கோப்பை நீக்க விரும்புகிறீர்களா?",
+          LocalString.addProfileWarning:
+              "போஸ்டரை அணுக, தொடர்ந்து பயன்பாட்டிற்காக குறைந்தது ஒரு சுயவிவரத்தை உருவாக்கவும். இது சிறந்த அனுபவத்தை வழங்கும்.",
+          LocalString.likes: "விருப்பங்கள்",
+          LocalString.searchCatagory: "வகையைத் தேடு",
+          LocalString.emptySearch: "தேடல் முடிவுகள் இல்லை.",
+          LocalString.removeFromList:
+              "இந்த போஸ்டரை விருப்ப பட்டியலிலிருந்து அகற்ற விரும்புகிறீர்களா?",
+          LocalString.emptyLikes:
+              "தற்போது விருப்பமான போஸ்டர்கள் இல்லை! உங்கள் விருப்ப பட்டியலில் சேர்க்க இதய ஐகானை கிளிக் செய்யவும்.",
+          LocalString.swatchWarning:
+              "உங்கள் சுயவிவர பட்டியலில் ஒரு சுயவிவரம் மட்டுமே உள்ளது. மாற்ற விரும்பினால் மேலும் சுயவிவரங்களைச் சேர்க்க வேண்டும்.",
+          LocalString.failedToLoadAds: "விளம்பரங்களை ஏற்ற முடியவில்லை",
+          LocalString.loading: "ஏற்றுகிறது",
+          LocalString.getPro: "ப்ரோ வாங்கவும்"
+        },
+        'kn_IN': {
+          LocalString.title: "ಫಾಸ್ಟಿವಾ ಪೋಸ್ಟರ್ ಮೇಕರ್",
+          LocalString.home: "ಮುಖಪುಟ",
+          LocalString.picture: "ಚಿತ್ರ",
+          LocalString.profile: "ಪ್ರೊಫೈಲ್",
+          LocalString.editPoster: "ಪೋಸ್ಟರ್ ಸಂಪಾದಿಸಿ",
+          LocalString.selectProfile: "ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+          LocalString.viewAll: "ಎಲ್ಲವನ್ನೂ ನೋಡಿ",
+          LocalString.noInternet: "ಇಂಟರ್‌ನೆಟ್ ಇಲ್ಲ",
+          LocalString.noData: "ಡೇಟಾ ಇಲ್ಲ",
+          LocalString.noProfile: "ಪ್ರೊಫೈಲ್ ಇಲ್ಲ",
+          LocalString.noProfileDes:
+              "ಈಗಾಗಲೇ ಯಾವುದೇ ಪ್ರೊಫೈಲ್ ಲಭ್ಯವಿಲ್ಲ. ಉತ್ತಮ ಅನುಭವಕ್ಕಾಗಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಸೇರಿಸಿ.",
+          LocalString.categoryPoster: "ವರ್ಗದ ಪೋಸ್ಟರ್‌ಗಳು",
+          LocalString.connectionIntro:
+              "ನೀವು ಇಂಟರ್‌ನೆಟ್‌ಗೆ ಸಂಪರ್ಕ ಹೊಂದಿಲ್ಲ. ವೈ-ಫೈ ಆನ್ ಆಗಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿ, ಫ್ಲೈಟ್ ಮೋಡ್ ಆಫ್ ಆಗಿದೆ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+          LocalString.noSelectedProfile:
+              "ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಯಾಣವನ್ನು ನಿಮ್ಮ ಅನನ್ಯ ಪ್ರೊಫೈಲ್‌ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ! ಒಂದು ರಚಿಸಲು, ಕೆಳಗಿನ ಬಟನ್‌ನನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ. ಇದು ಸುಲಭ, ಕೇವಲ ಎರಡು ಕ್ಲಿಕ್ಕುಗಳು!",
+          LocalString.profileDetails: "ಪ್ರೊಫೈಲ್ ವಿವರಗಳು",
+          LocalString.addProfile: "ಪ್ರೊಫೈಲ್ ಸೇರಿಸಿ",
+          LocalString.updateProfile: "ಪ್ರೊಫೈಲ್ ನವೀಕರಿಸಿ",
+          LocalString.update: "ನವೀಕರಿಸಿ",
+          LocalString.festivaCropper: 'ಫೆಸ್ಟಿವಾ ಕ್ರಾಪರ್',
+          LocalString.uploadLogo: "ಲೋಗೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+          LocalString.download: "ಡೌನ್‌ಲೋಡ್",
+          LocalString.uploadFirmLogo: "ಕಂಪನಿಯ ಲೋಗೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+          LocalString.personal: "ವೈಯಕ್ತಿಕ",
+          LocalString.business: "ವ್ಯವಹಾರ",
+          LocalString.selectType: "ದಯವಿಟ್ಟು ಪ್ರೊಫೈಲ್ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ:",
+          LocalString.name: "ಹೆಸರು",
+          LocalString.number: "ಸಂಖ್ಯೆ",
+          LocalString.mobileNumber: "ಮೊಬೈಲ್ ನಂಬರ",
+          LocalString.emailAddress: "ಇಮೇಲ್ ವಿಳಾಸ",
+          LocalString.email: "ಇಮೇಲ್",
+          LocalString.address: "ವಿಳಾಸ",
+          LocalString.continueButton: "ಮುಂದುವರಿಸಿ",
+          LocalString.warning: "ಎಚ್ಚರಿಕೆ",
+          LocalString.pickLanguage: "ನಿಮ್ಮ ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ:",
+          LocalString.currentLanguage: "ಪ್ರಸ್ತುತ ಭಾಷೆ",
+          LocalString.logoWarning: "ದಯವಿಟ್ಟು ಲೋಗೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+          LocalString.profileTypeWarning:
+              "ದಯವಿಟ್ಟು ಪ್ರೊಫೈಲ್ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+          LocalString.myProfileList: "ನನ್ನ ಪ್ರೊಫೈಲ್ ಪಟ್ಟಿ",
+          LocalString.languages: "ನನ್ನ ಭಾಷೆ",
+          LocalString.exitWarning:
+              "ಅನ್ವಯವನ್ನು ಮುಚ್ಚಲು ನೀವು ಖಚಿತವಾಗಿ ಇಚ್ಛಿಸುತ್ತೀರಾ?",
+          LocalString.profileWarning:
+              "ಈ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಇಚ್ಛಿಸುತ್ತೀರಾ?",
+          LocalString.exit: "ನಿರ್ಗಮಿಸಿ",
+          LocalString.yes: "ಹೌದು",
+          LocalString.no: "ಇಲ್ಲ",
+          LocalString.somethingWentWrong: "ಏನೇನೋ ತಪ್ಪಾಗಿದೆ",
+          LocalString.logo: "ಲೋಗೋ",
+          LocalString.color: "ಬಣ್ಣ",
+          LocalString.opacity: "ಅಪಾರದರ್ಶಕತೆ",
+          LocalString.scale: "ಸ್ಕೇಲ್",
+          LocalString.frame: "ಫ್ರೇಮ್",
+          LocalString.pickLogoColor: "ಲೋಗೋ ಬಣ್ಣ ಆಯ್ಕೆಮಾಡಿ",
+          LocalString.pickFrameColor: "ಫ್ರೇಮ್ ಬಣ್ಣ ಆಯ್ಕೆಮಾಡಿ",
+          LocalString.radius: "ಆರಡ್ಯೂಸ್",
+          LocalString.shape: "ಆಕಾರ",
+          LocalString.fonts: "ಅಕ್ಷರಶೈಲಿ",
+          LocalString.frameMargin: "ಫ್ರೇಮ್ ಮಾರುಜಿ",
+          LocalString.logoMargin: "ಲೋಗೋ ಮಾರುಜಿ",
+          LocalString.margin: "ಮಾರುಜಿ",
+          LocalString.border: "ಅಂಚು",
+          LocalString.posterBorder: "ಪೋಸ್ಟರ್ ಅಂಚು",
+          LocalString.logoRadius: "ಲೋಗೋ ಆರಡ್ಯೂಸ್",
+          LocalString.frameRadius: "ಫ್ರೇಮ್ ಆರಡ್ಯೂಸ್",
+          LocalString.logoBorder: "ಲೋಗೋ ಅಂಚು",
+          LocalString.strokeWidth: "ಸ್ಟ್ರೋಕ್ ಅಗಲ",
+          LocalString.borderOpacity: "ಅಂಚು ಅಪಾರದರ್ಶಕತೆ",
+          LocalString.logoColor: "ಲೋಗೋ ಬಣ್ಣ",
+          LocalString.frameColor: "ಫ್ರೇಮ್ ಬಣ್ಣ",
+          LocalString.nameColor: "ಹೆಸರಿನ ಬಣ್ಣ",
+          LocalString.borderColor: "ಅಂಚಿನ ಬಣ್ಣ",
+          LocalString.topLeft: "ಮೇಲ್ಭಾಗ ಎಡ",
+          LocalString.topRight: "ಮೇಲ್ಭಾಗ ಬಲ",
+          LocalString.bottomLeft: "ಕೆಳಭಾಗ ಎಡ",
+          LocalString.bottomRight: "ಕೆಳಭಾಗ ಬಲ",
+          LocalString.nameBoxRadius: "ಹೆಸರಿನ ಬಾಕ್ಸ್ ಆರಡ್ಯೂಸ್",
+          LocalString.topMargin: "ಮೇಲ್ಭಾಗ ಮಾರುಜಿ",
+          LocalString.bottomMargin: "ಕೆಳಭಾಗ ಮಾರುಜಿ",
+          LocalString.leftMargin: "ಎಡ ಮಾರುಜಿ",
+          LocalString.rightMargin: "ಬಲ ಮಾರುಜಿ",
+          LocalString.tools: "ಉಪಕರಣಗಳು",
+          LocalString.height: "ಎತ್ತರ",
+          LocalString.size: "ಗಾತ್ರ",
+          LocalString.latterSpacing: "ಅಕ್ಷರಾಂತರ",
+          LocalString.nameFont: "ಹೆಸರಿನ ಫಾಂಟ್",
+          LocalString.changeProfile: "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿ",
+          LocalString.numberColor: "ಸಂಖ್ಯೆಯ ಬಣ್ಣ",
+          LocalString.numberFont: "ಸಂಖ್ಯೆಯ ಫಾಂಟ್",
+          LocalString.emailColor: "ಇಮೇಲ್ ಬಣ್ಣ",
+          LocalString.emailFont: "ಇಮೇಲ್ ಫಾಂಟ್",
+          LocalString.addressColor: "ವಿಳಾಸ ಬಣ್ಣ",
+          LocalString.addressFont: "ವಿಳಾಸ ಫಾಂಟ್",
+          LocalString.preview: "ಮುನ್ನೋಟ",
+          LocalString.empty: "ಖಾಲಿ",
+          LocalString.privacy: "ಗೌಪ್ಯತೆ",
+          LocalString.termsAndConditions: "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
+          LocalString.rateMyApp: "ಅಪ್ಲಿಕೇಶನ್ ಮೌಲ್ಯಮಾಪನ",
+          LocalString.share: "ಹಂಚಿಕೊಳ್ಳಿ",
+          LocalString.help: "ಸಹಾಯ",
+          LocalString.vertical: "ಲಂಬ",
+          LocalString.horizontal: "ಅಡಿತ",
+          LocalString.contentAlign: "ವಿಷಯ ಜೋಡಣೆ",
+          LocalString.downloadSuccessful: "ಚಿತ್ರ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‌ಲೋಡ್ ಆಯಿತು",
+          LocalString.emptyDownLoad:
+              "ಡೌನ್‌ಲೋಡ್ ಚಿತ್ರಗಳು ಇಲ್ಲ. ದಯವಿಟ್ಟು ನಮ್ಮ ಇತ್ತೀಚಿನ ಸಂಗ್ರಹಗಳನ್ನು ಅನ್ವೇಷಿಸಿ.",
+          LocalString.emptyImages:
+              "ಚಿತ್ರಗಳು ಇಲ್ಲ. ದಯವಿಟ್ಟು ಫೀಡ್‌ಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್ ಮರುತೆರೆಯಿರಿ.",
+          LocalString.itsPremium: "ಇದು ಪ್ರೀಮಿಯಂ",
+          LocalString.pleaseWatchVideo:
+              "ಪೋಸ್ಟರ್ ಅನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ಪ್ರೋ ಪ್ಲಾನ್ ಪಡೆಯಿರಿ ಅಥವಾ ಸಂಪೂರ್ಣ ವಿಡಿಯೋ ಜಾಹೀರಾತು ವೀಕ್ಷಿಸಿ",
+          LocalString.watch: "ವೀಕ್ಷಿಸಿ",
+          LocalString.removeWaterMark: "ವಾಟರ್‌ಮಾರ್ಕ್ ತೆಗೆದುಹಾಕಿ",
+          LocalString.pleaseWatchVideoWaterMart:
+              "ವಾಟರ್‌ಮಾರ್ಕ್ ತೆಗೆದುಹಾಕಲು ಪ್ರೋ ಪ್ಲಾನ್ ಪಡೆಯಿರಿ ಅಥವಾ ಸಂಪೂರ್ಣ ಜಾಹೀರಾತು ವೀಕ್ಷಿಸಿ.",
+          LocalString.cancel: "ರದ್ದುಮಾಡಿ",
+          LocalString.save: "ಉಳಿಸಿ",
+          LocalString.myProfile: "ನನ್ನ ಪ್ರೊಫೈಲ್",
+          LocalString.noSliderData: "ಸ್ಲೈಡರ್ ಡೇಟಾ ಇಲ್ಲ",
+          LocalString.deleteWarning:
+              "ಈ ಫೈಲ್ ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಇಚ್ಛಿಸುತ್ತೀರಾ?",
+          LocalString.addProfileWarning:
+              "ಪೋಸ್ಟರ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಲು, ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಪ್ರೊಫೈಲ್ ರಚಿಸಿ. ಇದು ಉತ್ತಮ ಅನುಭವವನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+          LocalString.likes: "ಇಷ್ಟಗಳು",
+          LocalString.searchCatagory: "ವರ್ಗ ಹುಡುಕಿ",
+          LocalString.emptySearch: "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು ಲಭ್ಯವಿಲ್ಲ.",
+          LocalString.removeFromList:
+              "ಈ ಪೋಸ್ಟರ್ ಅನ್ನು ಫೇವರಿಟ್ ಪಟ್ಟಿ నుండి ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಇಚ್ಛಿಸುತ್ತೀರಾ?",
+          LocalString.emptyLikes:
+              "ಈಗಾಗಲೇ ಇಷ್ಟವಾದ ಪೋಸ್ಟರ್‌ಗಳು ಇಲ್ಲ! ಹೃದಯ ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಅದನ್ನು ನಿಮ್ಮ ಫೇವರಿಟ್‌ಗಳಲ್ಲಿ ಸೇರಿಸಿ.",
+          LocalString.swatchWarning:
+              "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಪಟ್ಟಿಯಲ್ಲಿ ಕೇವಲ ಒಂದು ಪ್ರೊಫೈಲ್ ಇದೆ ಎಂದು ನಮಗೆ ಕಂಡುಬಂದಿದೆ, ಮತ್ತೊಂದು ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಲು, ದಯವಿಟ್ಟು ಹೆಚ್ಚಿನ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
+          LocalString.failedToLoadAds: "ಜಾಹೀರಾತು ಲೋಡ್ ಆಗುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ",
+          LocalString.loading: "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+          LocalString.getPro: "ಪ್ರೋ ಪಡೆಯಿರಿ"
+        },
+        'ml_IN': {
+          LocalString.title: "ഫാസ്റ്റിവ പോസ്റ്റർ മേക്കർ",
+          LocalString.home: "ഹോം",
+          LocalString.picture: "ചിത്രം",
+          LocalString.profile: "പ്രൊഫൈൽ",
+          LocalString.editPoster: "പോസ്റ്റർ എഡിറ്റ് ചെയ്യുക",
+          LocalString.selectProfile: "പ്രൊഫൈൽ തിരഞ്ഞെടുക്കുക",
+          LocalString.viewAll: "എല്ലാം കാണുക",
+          LocalString.noInternet: "ഇന്റർനെറ്റ് ഇല്ല",
+          LocalString.noData: "ഡാറ്റ ഇല്ല",
+          LocalString.noProfile: "പ്രൊഫൈൽ ഇല്ല",
+          LocalString.noProfileDes:
+              "ഇപ്പോൾ ലഭ്യമായ പ്രൊഫൈൽ ഇല്ല. മികച്ച അനുഭവത്തിനായി ദയവായി ഒരു പ്രൊഫൈൽ ചേർക്കുക.",
+          LocalString.categoryPoster: "വിഭാഗ പോസ്റ്റർ",
+          LocalString.connectionIntro:
+              "നിങ്ങൾ ഇന്റർനെറ്റുമായി കണക്ട് ചെയ്തിട്ടില്ല. Wi-Fi ഓണായിട്ടുണ്ടോ, ഫ്ലൈറ്റ് മോഡ് ഓഫ് ആണോ എന്നത് പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
+          LocalString.noSelectedProfile:
+              "നിങ്ങളുടെ വ്യക്തിഗത പ്രൊഫൈൽ ഉപയോഗിച്ച് ആപ്ലിക്കേഷന്റെ യാത്ര ആരംഭിക്കൂ! ഒരിക്കൽ മാത്രം ടാപ്പ് ചെയ്താൽ രണ്ട് ക്ലിക്കുകൾക്കുള്ളിൽ പ്രൊഫൈൽ സൃഷ്ടിക്കാം!",
+          LocalString.profileDetails: "പ്രൊഫൈൽ വിശദാംശങ്ങൾ",
+          LocalString.addProfile: "പ്രൊഫൈൽ ചേർക്കുക",
+          LocalString.updateProfile: "പ്രൊഫൈൽ അപ്ഡേറ്റ് ചെയ്യുക",
+          LocalString.update: "അപ്ഡേറ്റ്",
+          LocalString.festivaCropper: "ഫാസ്റ്റിവ ക്രോപ്പർ",
+          LocalString.uploadLogo: "ലോഗോ അപ്‌ലോഡ് ചെയ്യുക",
+          LocalString.download: "ഡൗൺലോഡ്",
+          LocalString.uploadFirmLogo: "കമ്പനി ലോഗോ അപ്‌ലോഡ് ചെയ്യുക",
+          LocalString.personal: "വ്യക്തിഗതം",
+          LocalString.business: "ബിസിനസ്സ്",
+          LocalString.selectType: "ദയവായി പ്രൊഫൈൽ തരം തിരഞ്ഞെടുക്കുക:",
+          LocalString.name: "പേര്",
+          LocalString.number: "നമ്പർ",
+          LocalString.mobileNumber: "മൊബൈൽ നമ്പർ",
+          LocalString.emailAddress: "ഇമെയിൽ വിലാസം",
+          LocalString.email: "ഇമെയിൽ",
+          LocalString.address: "വിലാസം",
+          LocalString.continueButton: "തുടരുക",
+          LocalString.warning: "മുന്നറിയിപ്പ്",
+          LocalString.pickLanguage: "നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക:",
+          LocalString.currentLanguage: "നിലവിലെ ഭാഷ",
+          LocalString.logoWarning: "ദയവായി ലോഗോ അപ്‌ലോഡ് ചെയ്യുക",
+          LocalString.profileTypeWarning: "ദയവായി പ്രൊഫൈൽ തരം തിരഞ്ഞെടുക്കുക",
+          LocalString.myProfileList: "എന്റെ പ്രൊഫൈൽ ലിസ്റ്റ്",
+          LocalString.languages: "എന്റെ ഭാഷ",
+          LocalString.exitWarning: "ആപ്പ് അടയ്ക്കാനാണോ നിങ്ങൾക്ക് ആഗ്രഹം?",
+          LocalString.profileWarning: "ഈ പ്രൊഫൈൽ ഇല്ലാതാക്കണമോ?",
+          LocalString.exit: "പുറത്ത് പോകുക",
+          LocalString.yes: "അതെ",
+          LocalString.no: "ഇല്ല",
+          LocalString.somethingWentWrong: "എന്തോ കുഴപ്പം സംഭവിച്ചു",
+          LocalString.logo: "ലോഗോ",
+          LocalString.color: "നിറം",
+          LocalString.opacity: "അദൃശ്യത",
+          LocalString.scale: "സ്കെയിൽ",
+          LocalString.frame: "ചട്ടക്കൂട്",
+          LocalString.pickLogoColor: "ലോഗോയ്ക്ക് നിറം തിരഞ്ഞെടുക്കുക",
+          LocalString.pickFrameColor: "ചട്ടക്കൂടിനുള്ള നിറം തിരഞ്ഞെടുക്കുക",
+          LocalString.radius: "ആരം",
+          LocalString.shape: "ആകൃതി",
+          LocalString.fonts: "ഫോണ്ടുകൾ",
+          LocalString.frameMargin: "ഫ്രെയിം മാർജിൻ",
+          LocalString.logoMargin: "ലോഗോ മാർജിൻ",
+          LocalString.margin: "മാർജിൻ",
+          LocalString.border: "ബോർഡർ",
+          LocalString.posterBorder: "പോസ്റ്റർ ബോർഡർ",
+          LocalString.logoRadius: "ലോഗോ ആരം",
+          LocalString.frameRadius: "ഫ്രെയിം ആരം",
+          LocalString.logoBorder: "ലോഗോ ബോർഡർ",
+          LocalString.strokeWidth: "സ്റ്റ്രോക്ക് വീതി",
+          LocalString.borderOpacity: "ബോർഡർ അദൃശ്യത",
+          LocalString.logoColor: "ലോഗോ നിറം",
+          LocalString.frameColor: "ഫ്രെയിം നിറം",
+          LocalString.nameColor: "പേര് നിറം",
+          LocalString.borderColor: "ബോർഡർ നിറം",
+          LocalString.topLeft: "മുകളിൽ ഇടത്",
+          LocalString.topRight: "മുകളിൽ വലത്",
+          LocalString.bottomLeft: "കീഴിൽ ഇടത്",
+          LocalString.bottomRight: "കീഴിൽ വലത്",
+          LocalString.nameBoxRadius: "പേർബോക്‌സ് ആരം",
+          LocalString.topMargin: "മുകളിൽ മാർജിൻ",
+          LocalString.bottomMargin: "കീഴിൽ മാർജിൻ",
+          LocalString.leftMargin: "ഇടത് മാർജിൻ",
+          LocalString.rightMargin: "വലത് മാർജിൻ",
+          LocalString.tools: "ഉപകരണങ്ങൾ",
+          LocalString.height: "ഉയരം",
+          LocalString.size: "വലിപ്പം",
+          LocalString.latterSpacing: "അക്ഷരങ്ങൾക്കിടയിലെ ദൂരം",
+          LocalString.nameFont: "പേര് ഫോണ്ട്",
+          LocalString.changeProfile: "പ്രൊഫൈൽ മാറ്റുക",
+          LocalString.numberColor: "നമ്പർ നിറം",
+          LocalString.numberFont: "നമ്പർ ഫോണ്ട്",
+          LocalString.emailColor: "ഇമെയിൽ നിറം",
+          LocalString.emailFont: "ഇമെയിൽ ഫോണ്ട്",
+          LocalString.addressColor: "വിലാസം നിറം",
+          LocalString.addressFont: "വിലാസം ഫോണ്ട്",
+          LocalString.preview: "പ്രിവ്യൂ",
+          LocalString.empty: "ഖാലി",
+          LocalString.privacy: "സ്വകാര്യതാ നിബന്ധനകൾ",
+          LocalString.termsAndConditions: "ഉപയോഗ നിബന്ധനകൾ",
+          LocalString.rateMyApp: "ആപ്പ് റേറ്റ് ചെയ്യുക",
+          LocalString.share: "പങ്കിടുക",
+          LocalString.help: "സഹായം",
+          LocalString.vertical: "നിലവിൽ",
+          LocalString.horizontal: "തെരിവ്",
+          LocalString.contentAlign: "ഉള്ളടക്ക ആലൈൻമെന്റ്",
+          LocalString.downloadSuccessful: "ചിത്രം വിജയകരമായി ഡൗൺലോഡ് ചെയ്തു",
+          LocalString.emptyDownLoad:
+              "ഡൗൺലോഡ് ചെയ്ത ചിത്രങ്ങളൊന്നുമില്ല, ദയവായി പുതിയ കളക്ഷനുകൾ പരിശോധിക്കുക.",
+          LocalString.emptyImages:
+              "ചിത്രങ്ങളൊന്നുമില്ല. ദയവായി ഫീഡുകൾ റിഫ്രഷ് ചെയ്യുക അല്ലെങ്കിൽ ആപ്പ് വീണ്ടും തുറക്കുക.",
+          LocalString.itsPremium: "ഇത് പ്രീമിയമാണ്",
+          LocalString.pleaseWatchVideo:
+              "പ്രോ പ്ലാൻ നേടുകയോ പൂർണ്ണ വീഡിയോ പരസ്യം കാണുകയോ ചെയ്ത് ഈ പോസ്റ്റർ അൺലോക്ക് ചെയ്യുക",
+          LocalString.watch: "കാണുക",
+          LocalString.removeWaterMark: "വാട്ടർമാർക്ക് നീക്കംചെയ്യുക",
+          LocalString.pleaseWatchVideoWaterMart:
+              "വാട്ടർമാർക്ക് നീക്കാൻ പ്രോ പ്ലാൻ സ്വീകരിക്കുക അല്ലെങ്കിൽ പൂർണ്ണ വീഡിയോ പരസ്യം കാണുക.",
+          LocalString.cancel: "റദ്ദാക്കുക",
+          LocalString.save: "സംരക്ഷിക്കുക",
+          LocalString.myProfile: "എന്റെ പ്രൊഫൈൽ",
+          LocalString.noSliderData: "സ്ലൈഡർ ഡാറ്റ ഇല്ല",
+          LocalString.deleteWarning: "ഈ ഫയൽ ഇല്ലാതാക്കാനാണോ നിങ്ങൾക്ക് ആഗ്രഹം?",
+          LocalString.addProfileWarning:
+              "പോസ്റ്ററുകൾ ആക്സസ് ചെയ്യാൻ, ദയവായി കുറഞ്ഞത് ഒരു പ്രൊഫൈൽ സൃഷ്ടിക്കേണ്ടതാണ്.",
+          LocalString.likes: "ഇഷ്ടങ്ങൾ",
+          LocalString.searchCatagory: "വിഭാഗം തിരയുക",
+          LocalString.emptySearch: "തിരയലിൽ ഫലം ലഭിച്ചില്ല.",
+          LocalString.removeFromList:
+              "ഈ പോസ്റ്റർ ഇഷ്ടപ്പെട്ടവ ലിസ്റ്റിൽ നിന്ന് നീക്കം ചെയ്യണോ?",
+          LocalString.emptyLikes:
+              "ഇപ്പോൾ ഇഷ്ടപ്പെട്ട പോസ്റ്ററുകളൊന്നുമില്ല! ഹാർട്ട് ഐക്കണിൽ ക്ലിക്കുചെയ്ത് ഫേവർറ്റുകളിലേയ്ക്ക് ചേർക്കുക.",
+          LocalString.swatchWarning:
+              "നിങ്ങളുടെ ലിസ്റ്റിൽ നിലവിൽ ഒരു പ്രൊഫൈൽ മാത്രമുണ്ട്. പുതിയ പ്രൊഫൈൽ ചേർത്താൽ മാത്രമേ സ്വിച്ച് ചെയ്യാൻ കഴിയൂ.",
+          LocalString.failedToLoadAds:
+              "ജിംഗിള്‍ ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+          LocalString.loading: "ലോഡിംഗ്",
+          LocalString.getPro: "പ്രോ നേടുക"
+        },
+        'ur_PK': {
+          LocalString.title: "فاسٹیوا پوسٹر میکر",
+          LocalString.home: "ہوم",
+          LocalString.picture: "تصویر",
+          LocalString.profile: "پروفائل",
+          LocalString.editPoster: "پوسٹر میں ترمیم کریں",
+          LocalString.selectProfile: "پروفائل منتخب کریں",
+          LocalString.viewAll: "تمام دیکھیں",
+          LocalString.noInternet: "کوئی انٹرنیٹ نہیں",
+          LocalString.noData: "کوئی ڈیٹا نہیں",
+          LocalString.noProfile: "کوئی پروفائل نہیں",
+          LocalString.noProfileDes:
+              "فی الحال کوئی پروفائل دستیاب نہیں ہے۔ بہتر تجربے کے لیے براہ کرم اپنی پروفائل شامل کریں۔",
+          LocalString.categoryPoster: "زمرہ پوسٹر",
+          LocalString.connectionIntro:
+              "آپ انٹرنیٹ سے منسلک نہیں ہیں۔ یقینی بنائیں کہ وائی فائی آن ہے، فلائٹ موڈ آف ہے اور دوبارہ کوشش کریں۔",
+          LocalString.noSelectedProfile:
+              "ایپ کے سفر کا آغاز اپنی منفرد پروفائل کے ساتھ کریں! ایک بنانے کے لیے نیچے والے بٹن پر ٹیپ کریں۔ صرف دو کلک میں مکمل!",
+          LocalString.profileDetails: "پروفائل کی تفصیلات",
+          LocalString.addProfile: "پروفائل شامل کریں",
+          LocalString.updateProfile: "پروفائل اپ ڈیٹ کریں",
+          LocalString.update: "اپ ڈیٹ",
+          LocalString.festivaCropper: 'فاسٹیوا کراپر',
+          LocalString.uploadLogo: "لوگو اپلوڈ کریں",
+          LocalString.download: "ڈاؤن لوڈ",
+          LocalString.uploadFirmLogo: "فرم کا لوگو اپلوڈ کریں",
+          LocalString.personal: "ذاتی",
+          LocalString.business: "کاروباری",
+          LocalString.selectType: "براہ کرم پروفائل کی قسم منتخب کریں:",
+          LocalString.name: "نام",
+          LocalString.number: "نمبر",
+          LocalString.mobileNumber: "موبائل نمبر",
+          LocalString.emailAddress: "ای میل ایڈریس",
+          LocalString.email: "ای میل",
+          LocalString.address: "پتہ",
+          LocalString.continueButton: "جاری رکھیں",
+          LocalString.warning: "انتباہ",
+          LocalString.pickLanguage: "اپنی زبان منتخب کریں:",
+          LocalString.currentLanguage: "موجودہ زبان",
+          LocalString.logoWarning: "براہ کرم لوگو اپلوڈ کریں",
+          LocalString.profileTypeWarning: "براہ کرم پروفائل کی قسم منتخب کریں",
+          LocalString.myProfileList: "میری پروفائل کی فہرست",
+          LocalString.languages: "میری زبان",
+          LocalString.exitWarning: "کیا آپ واقعی ایپ بند کرنا چاہتے ہیں؟",
+          LocalString.profileWarning:
+              "کیا آپ واقعی اس پروفائل کو حذف کرنا چاہتے ہیں؟",
+          LocalString.exit: "باہر نکلیں",
+          LocalString.yes: "ہاں",
+          LocalString.no: "نہیں",
+          LocalString.somethingWentWrong: "کچھ غلط ہو گیا",
+          LocalString.logo: "لوگو",
+          LocalString.color: "رنگ",
+          LocalString.opacity: "شفافیت",
+          LocalString.scale: "سکیل",
+          LocalString.frame: "فریم",
+          LocalString.pickLogoColor: "لوگو کا رنگ منتخب کریں",
+          LocalString.pickFrameColor: "فریم کا رنگ منتخب کریں",
+          LocalString.radius: "رداس",
+          LocalString.shape: "شکل",
+          LocalString.fonts: "فونٹس",
+          LocalString.frameMargin: "فریم کا مارجن",
+          LocalString.logoMargin: "لوگو کا مارجن",
+          LocalString.margin: "مارجن",
+          LocalString.border: "بارڈر",
+          LocalString.posterBorder: "پوسٹر بارڈر",
+          LocalString.logoRadius: "لوگو رداس",
+          LocalString.frameRadius: "فریم رداس",
+          LocalString.logoBorder: "لوگو بارڈر",
+          LocalString.strokeWidth: "لکیری چوڑائی",
+          LocalString.borderOpacity: "بارڈر شفافیت",
+          LocalString.logoColor: "لوگو کا رنگ",
+          LocalString.frameColor: "فریم کا رنگ",
+          LocalString.nameColor: "نام کا رنگ",
+          LocalString.borderColor: "بارڈر کا رنگ",
+          LocalString.topLeft: "اوپر بائیں",
+          LocalString.topRight: "اوپر دائیں",
+          LocalString.bottomLeft: "نیچے بائیں",
+          LocalString.bottomRight: "نیچے دائیں",
+          LocalString.nameBoxRadius: "نام باکس کا رداس",
+          LocalString.topMargin: "اوپری مارجن",
+          LocalString.bottomMargin: "نچلا مارجن",
+          LocalString.leftMargin: "بایاں مارجن",
+          LocalString.rightMargin: "دائیں مارجن",
+          LocalString.tools: "اوزار",
+          LocalString.height: "اونچائی",
+          LocalString.size: "سائز",
+          LocalString.latterSpacing: "فاصلہ",
+          LocalString.nameFont: "نام کا فونٹ",
+          LocalString.changeProfile: "پروفائل تبدیل کریں",
+          LocalString.numberColor: "نمبر کا رنگ",
+          LocalString.numberFont: "نمبر کا فونٹ",
+          LocalString.emailColor: "ای میل کا رنگ",
+          LocalString.emailFont: "ای میل فونٹ",
+          LocalString.addressColor: "پتے کا رنگ",
+          LocalString.addressFont: "پتے کا فونٹ",
+          LocalString.preview: "پیش نظارہ",
+          LocalString.empty: "خالی",
+          LocalString.privacy: "رازداری",
+          LocalString.termsAndConditions: "شرائط و ضوابط",
+          LocalString.rateMyApp: "ایپ کی درجہ بندی کریں",
+          LocalString.share: "شیئر کریں",
+          LocalString.help: "مدد",
+          LocalString.vertical: "عمودی",
+          LocalString.horizontal: "افقی",
+          LocalString.contentAlign: "مواد کی صف بندی",
+          LocalString.downloadSuccessful: "تصویر کامیابی سے ڈاؤن لوڈ ہو گئی",
+          LocalString.emptyDownLoad:
+              "کوئی ڈاؤن لوڈ کردہ تصویر موجود نہیں ہے، براہ کرم ہماری تازہ ترین کلیکشن دیکھیں۔",
+          LocalString.emptyImages:
+              "کوئی تصاویر نہیں ہیں، براہ کرم فیڈ کو ریفریش کریں یا ایپ کو دوبارہ کھولنے کی کوشش کریں۔",
+          LocalString.itsPremium: "یہ پریمیم ہے",
+          LocalString.pleaseWatchVideo:
+              "پرو پلان حاصل کریں یا اس پوسٹر کو ان لاک کرنے کے لیے مکمل ویڈیو اشتہار دیکھیں",
+          LocalString.watch: "دیکھیں",
+          LocalString.removeWaterMark: "واٹر مارک ہٹائیں",
+          LocalString.pleaseWatchVideoWaterMart:
+              "واٹر مارک ہٹانے کے لیے پرو پلان حاصل کریں یا مکمل ویڈیو اشتہار دیکھیں۔",
+          LocalString.cancel: "منسوخ کریں",
+          LocalString.save: "محفوظ کریں",
+          LocalString.myProfile: "میری پروفائل",
+          LocalString.noSliderData: "کوئی سلائیڈر ڈیٹا نہیں",
+          LocalString.deleteWarning:
+              "کیا آپ واقعی اس فائل کو حذف کرنا چاہتے ہیں؟",
+          LocalString.addProfileWarning:
+              "پوسٹر تک رسائی کے لیے، براہ کرم کم از کم ایک پروفائل بنائیں۔ اس سے آپ کا تجربہ بہتر ہوگا۔",
+          LocalString.likes: "پسند",
+          LocalString.searchCatagory: "زمرہ تلاش کریں",
+          LocalString.emptySearch: "کوئی تلاش کے نتائج نہیں ملے۔",
+          LocalString.removeFromList:
+              "کیا آپ واقعی اس پوسٹر کو پسندیدہ فہرست سے ہٹانا چاہتے ہیں؟",
+          LocalString.emptyLikes:
+              "فی الحال کوئی پسندیدہ پوسٹر موجود نہیں! دل کے آئیکون پر کلک کریں اسے پسندیدہ میں شامل کرنے کے لیے۔",
+          LocalString.swatchWarning:
+              "ہم نے دیکھا ہے کہ آپ کی پروفائل فہرست میں صرف ایک پروفائل ہے، "
+                  "اگر آپ پروفائل تبدیل کرنا چاہتے ہیں تو براہ کرم مزید پروفائلز شامل کریں۔",
+          LocalString.failedToLoadAds: "اشتہار لوڈ کرنے میں ناکامی",
+          LocalString.loading: "لوڈ ہو رہا ہے",
+          LocalString.getPro: "پرو حاصل کریں",
+        },
+      };
+}
